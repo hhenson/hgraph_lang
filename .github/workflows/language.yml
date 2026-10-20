@@ -203,6 +203,7 @@ jobs:
         run: |
           cmake --install build --prefix "$GITHUB_WORKSPACE/build/install"
           cmake -S packaging/smoke/consumer -B build/consumer -GNinja \
-            -DCMAKE_PREFIX_PATH="$GITHUB_WORKSPACE/build/install;$GITHUB_WORKSPACE/build-sdk/sdk;$HGL_DEPENDENCY_PREFIX"
+            -DCMAKE_PREFIX_PATH="$GITHUB_WORKSPACE/build/install;$GITHUB_WORKSPACE/build-sdk/sdk;$HGL_DEPENDENCY_PREFIX" \
+            -DHGRAPH_USE_PYARROW_ARROW=ON
           cmake --build build/consumer --parallel 3
           ctest --test-dir build/consumer --output-on-failure
