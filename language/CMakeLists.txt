@@ -413,6 +413,15 @@ if(UNIX)
         list(PREPEND _hgl_install_rpath ${CMAKE_INSTALL_RPATH})
         list(REMOVE_DUPLICATES _hgl_install_rpath)
     endif()
+    # The runtime SDK may use a separate prefix inside this source/build tree.
+    # CMake excludes such paths from INSTALL_RPATH_USE_LINK_PATH, so retain
+    # shared SDK locations explicitly for the installed compiler.
+    foreach(_hgl_sdk_target IN ITEMS hgraph::runtime hgraph::wiring hgraph::stdlib)
+        get_target_property(_hgl_sdk_type ${_hgl_sdk_target} TYPE)
+        if(_hgl_sdk_type STREQUAL "SHARED_LIBRARY")
+            list(APPEND _hgl_install_rpath "$<TARGET_FILE_DIR:${_hgl_sdk_target}>")
+        endif()
+    endforeach()
     if(HGRAPH_PYARROW_LIBRARY_DIR)
         list(APPEND _hgl_install_rpath "${HGRAPH_PYARROW_LIBRARY_DIR}")
     elseif(TARGET hgraph::pyarrow_arrow)
