@@ -61,6 +61,24 @@ if(NOT _part_descriptors STREQUAL _expected_part_descriptor)
 endif()
 get_target_property(_part_bootstrap _parts HGL_PYTHON_BOOTSTRAP)
 
+# Relative placement belongs to the consumer's build tree for both generation
+# and the include paths exposed to its dependents.
+hgl_add_module(hgl_relative_combined STATIC HGL parts.hgl
+    PARTS part-implementation.hgl OUT_DIR relative/combined)
+hgl_add_module(hgl_relative_split STATIC HGL parts.hgl
+    PARTS part-implementation.hgl INCLUDE_DIR relative/include SRC_DIR relative/src)
+foreach(_layout IN ITEMS combined split)
+    get_target_property(_include hgl_relative_${_layout} INTERFACE_INCLUDE_DIRECTORIES)
+    if(_layout STREQUAL "combined")
+        set(_expected_include "${CMAKE_CURRENT_BINARY_DIR}/relative/combined")
+    else()
+        set(_expected_include "${CMAKE_CURRENT_BINARY_DIR}/relative/include")
+    endif()
+    if(NOT _include STREQUAL _expected_include)
+        message(FATAL_ERROR "relative ${_layout} include path is '${_include}', expected '${_expected_include}'")
+    endif()
+endforeach()
+
 get_target_property(_library_dir _fixture LIBRARY_OUTPUT_DIRECTORY)
 get_target_property(_runtime_dir _fixture RUNTIME_OUTPUT_DIRECTORY)
 get_target_property(_descriptors hgl_fixture HGL_MODULE_DESCRIPTORS)
@@ -85,6 +103,10 @@ endif()
 
 add_custom_target(hgl_fixture_generate
     DEPENDS
+        "${CMAKE_CURRENT_BINARY_DIR}/relative/combined/parts.h"
+        "${CMAKE_CURRENT_BINARY_DIR}/relative/combined/parts.cpp"
+        "${CMAKE_CURRENT_BINARY_DIR}/relative/include/parts.h"
+        "${CMAKE_CURRENT_BINARY_DIR}/relative/src/parts.cpp"
         "${CMAKE_CURRENT_BINARY_DIR}/hgl/hgl_fixture/include/unit.h"
         "${CMAKE_CURRENT_BINARY_DIR}/hgl/hgl_fixture/src/unit.cpp"
         "${CMAKE_CURRENT_BINARY_DIR}/hgl/hgl_fixture/src/unit.hgl-module.json"

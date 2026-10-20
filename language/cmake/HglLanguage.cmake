@@ -165,6 +165,12 @@ function(hgl_add_module target)
     endif()
 
     # Where the generated files go: one directory, or a split include/src pair.
+    foreach(_placement IN ITEMS OUT_DIR INCLUDE_DIR SRC_DIR)
+        if(_hgl_${_placement})
+            get_filename_component(_hgl_${_placement} "${_hgl_${_placement}}"
+                ABSOLUTE BASE_DIR "${CMAKE_CURRENT_BINARY_DIR}")
+        endif()
+    endforeach()
     if(_hgl_OUT_DIR)
         set(_include_dir "${_hgl_OUT_DIR}")
         set(_src_dir "${_hgl_OUT_DIR}")

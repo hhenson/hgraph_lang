@@ -13,7 +13,7 @@ configure_package_config_file(cmake/hgraph_langConfig.cmake.in
     "${CMAKE_CURRENT_BINARY_DIR}/hgraph_langConfig.cmake"
     INSTALL_DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/hgraph_lang")
 write_basic_package_version_file("${CMAKE_CURRENT_BINARY_DIR}/hgraph_langConfigVersion.cmake"
-    VERSION "${PROJECT_VERSION}" COMPATIBILITY SameMajorVersion)
+    VERSION "${HGRAPH_LANG_RELEASE_VERSION}" COMPATIBILITY SameMajorVersion)
 install(FILES "${CMAKE_CURRENT_BINARY_DIR}/hgraph_langConfig.cmake"
     "${CMAKE_CURRENT_BINARY_DIR}/hgraph_langConfigVersion.cmake"
     DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/hgraph_lang" COMPONENT Development)
