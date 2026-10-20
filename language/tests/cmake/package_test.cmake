@@ -50,6 +50,30 @@ if(NOT _proposed_log MATCHES "must end in \\.hgl.*\\.hgl\\.proposed files are de
     message(FATAL_ERROR "proposed-source rejection was not explicit:\n${_proposed_log}")
 endif()
 
+# Source filenames need to be Python identifiers only when wrappers are requested.
+foreach(_stem IN ITEMS const-debug-cpp class 123unit False)
+    foreach(_without_python IN ITEMS OFF ON)
+        execute_process(
+            COMMAND "${CMAKE_COMMAND}" -S "${SOURCE}" -B "${OUT}/stem-${_stem}-${_without_python}"
+                -G "${GENERATOR}"
+                "-DHGL_LANGUAGE_CMAKE=${OUT}/sdk/lib/cmake/hgl/HglLanguage.cmake"
+                "-DHGL_EXECUTABLE=${_installed_hgl}"
+                "-DNATIVE_DESCRIPTOR=${NATIVE_DESCRIPTOR}"
+                "-DHGL_TEST_WRAPPER_STEM=${_stem}"
+                "-DHGL_TEST_WITHOUT_PYTHON=${_without_python}"
+            RESULT_VARIABLE _stem_result
+            OUTPUT_VARIABLE _stem_out
+            ERROR_VARIABLE _stem_err)
+        if(_without_python)
+            if(NOT _stem_result EQUAL 0)
+                message(FATAL_ERROR "non-Python source '${_stem}' was rejected:\n${_stem_out}\n${_stem_err}")
+            endif()
+        elseif(_stem_result EQUAL 0 OR NOT _stem_err MATCHES "not a valid Python[ \t\r\n]+wrapper-module identifier")
+            message(FATAL_ERROR "invalid wrapper stem '${_stem}' was not explicitly rejected:\n${_stem_out}\n${_stem_err}")
+        endif()
+    endforeach()
+endforeach()
+
 execute_process(
     COMMAND "${CMAKE_COMMAND}" --build "${OUT}/build" --target hgl_fixture_generate --config Debug
     RESULT_VARIABLE _first_result

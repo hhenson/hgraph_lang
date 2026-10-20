@@ -28,6 +28,18 @@ endif()
 add_library(hgl_test_native INTERFACE)
 set_property(TARGET hgl_test_native PROPERTY HGL_MODULE_DESCRIPTORS "${NATIVE_DESCRIPTOR}")
 
+if(DEFINED HGL_TEST_WRAPPER_STEM)
+    set(_stem_source "${CMAKE_CURRENT_BINARY_DIR}/${HGL_TEST_WRAPPER_STEM}.hgl")
+    configure_file(unit.hgl "${_stem_source}" COPYONLY)
+    set(_python_options)
+    if(NOT HGL_TEST_WITHOUT_PYTHON)
+        set(_python_options PYTHON_MODULE _stem_fixture)
+    endif()
+    hgl_add_module(hgl_stem_fixture STATIC HGL "${_stem_source}"
+        LINK_LIBRARIES hgl_test_native ${_python_options})
+    return()
+endif()
+
 set(_package_dir "${CMAKE_CURRENT_BINARY_DIR}/python/_fixture")
 hgl_add_module(hgl_fixture STATIC
     HGL unit.hgl

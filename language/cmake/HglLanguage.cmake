@@ -162,6 +162,10 @@ function(hgl_add_module target)
             message(FATAL_ERROR
                 "hgl_add_module(${target}): PYTHON_MODULE must be one Python identifier")
         endif()
+        set(_python_keywords
+            False None True and as assert async await break class continue def del
+            elif else except finally for from global if import in is lambda nonlocal
+            not or pass raise return try while with yield)
     endif()
 
     # Where the generated files go: one directory, or a split include/src pair.
@@ -251,6 +255,12 @@ function(hgl_add_module target)
                 ".hgl.proposed files are design-only")
         endif()
         get_filename_component(_stem "${_hgl_abs}" NAME_WE)
+        if(_hgl_PYTHON_MODULE AND
+           (NOT _stem MATCHES "^[A-Za-z_][A-Za-z0-9_]*$" OR _stem IN_LIST _python_keywords))
+            message(FATAL_ERROR
+                "hgl_add_module(${target}): '${_stem}' is not a valid Python wrapper-module identifier; "
+                "rename the HGL file when using PYTHON_MODULE")
+        endif()
         list(FIND _generated_stems "${_stem}" _stem_index)
         if(NOT _stem_index EQUAL -1)
             message(FATAL_ERROR
