@@ -1,0 +1,1923 @@
+{
+  "repository": "https://github.com/hhenson/hgraph",
+  "revision": "ffc42ebe1671d6e6ad7fb2368a9e8377b85ad479",
+  "files": [
+    {
+      "source_path": ".github/workflows/language.yml",
+      "destination_path": ".github/workflows/language.yml",
+      "sha256": "b9c23322dc0727781333fccaab8fb7085f5a5b877898a0c6e5a79be193212a08"
+    },
+    {
+      "source_path": ".github/workflows/packaging.yml",
+      "destination_path": ".github/workflows/packaging.yml",
+      "sha256": "9c34675ff2b426591d60471cfa58ea8872b2d1868ca2e627c820f0b6466971a6"
+    },
+    {
+      "source_path": "docs/source/developer_guide/hgl_abstract_atomic_publications.rst",
+      "destination_path": "language/docs/runtime-integration/hgl_abstract_atomic_publications.rst",
+      "sha256": "2815851aa021cbf220330bb9efe31cb312cbf01e0de9cff26ee9a307944d84fb"
+    },
+    {
+      "source_path": "docs/source/developer_guide/hgl_any_values.rst",
+      "destination_path": "language/docs/runtime-integration/hgl_any_values.rst",
+      "sha256": "e6be77198ffc091be922ded35cf73d87fc1d02d8a58620aa11818e2450f23a75"
+    },
+    {
+      "source_path": "docs/source/developer_guide/hgl_atomic_set_map_publications.rst",
+      "destination_path": "language/docs/runtime-integration/hgl_atomic_set_map_publications.rst",
+      "sha256": "1d29c13c812f40b96a6bd12935a6b7daf2a631e12069af929d518daa2e260858"
+    },
+    {
+      "source_path": "docs/source/developer_guide/hgl_bytes_values.rst",
+      "destination_path": "language/docs/runtime-integration/hgl_bytes_values.rst",
+      "sha256": "7a3df08c724f66974f84807a008d4e3c7bf9d238a4c8849950ba7a175e9ab618"
+    },
+    {
+      "source_path": "docs/source/developer_guide/hgl_composite_collection_keys.rst",
+      "destination_path": "language/docs/runtime-integration/hgl_composite_collection_keys.rst",
+      "sha256": "9856a58b98787fa14cd8e3a56275ecbac7560e83cc21fe16f8196b251000de17"
+    },
+    {
+      "source_path": "docs/source/developer_guide/hgl_contextual_bindings.rst",
+      "destination_path": "language/docs/runtime-integration/hgl_contextual_bindings.rst",
+      "sha256": "09e5d2291b6b8afb3052976e082c530dc6a14f55c8bb96fd5a2ea3a22e167ab8"
+    },
+    {
+      "source_path": "docs/source/developer_guide/hgl_enum_publications.rst",
+      "destination_path": "language/docs/runtime-integration/hgl_enum_publications.rst",
+      "sha256": "2d66968669f4e9301c193e93d558bafbbf4c0d7828e755230f6505b87b4ad5a0"
+    },
+    {
+      "source_path": "docs/source/developer_guide/hgl_growing_list_publications.rst",
+      "destination_path": "language/docs/runtime-integration/hgl_growing_list_publications.rst",
+      "sha256": "3046a4785f7b695cd37c5d13c7fbb86761532bc3ae24d3a4cbcc546210e00db7"
+    },
+    {
+      "source_path": "docs/source/developer_guide/hgl_native_atomic_values.rst",
+      "destination_path": "language/docs/runtime-integration/hgl_native_atomic_values.rst",
+      "sha256": "c2c3b05916c9199eeda01498fa6f4ecec552a4676f6d9c5521e90741da8d612b"
+    },
+    {
+      "source_path": "docs/source/developer_guide/hgl_negative_tests.rst",
+      "destination_path": "language/docs/runtime-integration/hgl_negative_tests.rst",
+      "sha256": "89fe3d3e5d830d0fb3c5fa6e9f4c1be5a764624ffff61fcb265fa919c1a6fb7c"
+    },
+    {
+      "source_path": "docs/source/developer_guide/hgl_optional_atomic_publications.rst",
+      "destination_path": "language/docs/runtime-integration/hgl_optional_atomic_publications.rst",
+      "sha256": "fe18aef6ca4b9b174ae780005daa02c20183f6f49e4be5ca06bcef2dff9364a0"
+    },
+    {
+      "source_path": "docs/source/developer_guide/hgl_recursive_atomic_publications.rst",
+      "destination_path": "language/docs/runtime-integration/hgl_recursive_atomic_publications.rst",
+      "sha256": "1f1889fe4032a4f89c5050520de0bf4de1a27f0e1a73df4690d1f33369744087"
+    },
+    {
+      "source_path": "docs/source/developer_guide/hgl_rolling_publications.rst",
+      "destination_path": "language/docs/runtime-integration/hgl_rolling_publications.rst",
+      "sha256": "f942ae1d6cc9fec92313e5d6af2bfced5bc9a5c74c1fa5194ba39ee71079577b"
+    },
+    {
+      "source_path": "docs/source/developer_guide/hgl_scalar_collection_keys.rst",
+      "destination_path": "language/docs/runtime-integration/hgl_scalar_collection_keys.rst",
+      "sha256": "0bb16f56d1beb516b4f4fc25756516493bfff8fd472afc7b7f49dfe6121df1d9"
+    },
+    {
+      "source_path": "docs/source/developer_guide/hgl_temporal_publications.rst",
+      "destination_path": "language/docs/runtime-integration/hgl_temporal_publications.rst",
+      "sha256": "3868f570845c2343a714209023131a17df2cc426f35ac725895a2ccbfe3aa7fd"
+    },
+    {
+      "source_path": "language/.gitignore",
+      "destination_path": "language/.gitignore",
+      "sha256": "05f843d5cf8f3a31ab9e4eebdd02662f3463b26609ff1eaa4f96aed3b4b1b3ba"
+    },
+    {
+      "source_path": "language/CHANGELOG.md",
+      "destination_path": "language/CHANGELOG.md",
+      "sha256": "23103348ca04b135161959d73959369f9e2991152be7a6dba8c33594a3147dbc"
+    },
+    {
+      "source_path": "language/CMakeLists.txt",
+      "destination_path": "language/CMakeLists.txt",
+      "sha256": "11134456f7c4c9846d67d3cc4962502843ad657f05a1056b71a903fbcd05ebc6"
+    },
+    {
+      "source_path": "language/LICENSE",
+      "destination_path": "language/LICENSE",
+      "sha256": "5e49f1712d1383867219c899028337497a0c9c0c8f642d341dc94aa2420d50d9"
+    },
+    {
+      "source_path": "language/README.md",
+      "destination_path": "language/README.md",
+      "sha256": "124f91c0c0e4445a10a8eeacdc75c86a382e85baf6b3f754c805a5c6af1e6a76"
+    },
+    {
+      "source_path": "language/cmake/HglGeneratedCppSnapshot.cmake",
+      "destination_path": "language/cmake/HglGeneratedCppSnapshot.cmake",
+      "sha256": "9b446dc9ffbf86b8e6f178ab1a41cc48aee3b9277670127416a292f89c80eccb"
+    },
+    {
+      "source_path": "language/cmake/HglLanguage.cmake",
+      "destination_path": "language/cmake/HglLanguage.cmake",
+      "sha256": "496e84446529c46a935c1c5c4626851df7b7c70ad86164b7e91449761715badd"
+    },
+    {
+      "source_path": "language/cmake/HglStageRuntimeDlls.cmake",
+      "destination_path": "language/cmake/HglStageRuntimeDlls.cmake",
+      "sha256": "3b3a0eb97079d617874be8ad771da0e5dcaf57f53fd9d32e89460d1db858a15a"
+    },
+    {
+      "source_path": "language/cmake/hgl_python_module.cpp.in",
+      "destination_path": "language/cmake/hgl_python_module.cpp.in",
+      "sha256": "48b583790fc5b4d4963b6c1840989ce0cf91e8af3ed22274aae1763f3375b07e"
+    },
+    {
+      "source_path": "language/docs/README.md",
+      "destination_path": "language/docs/README.md",
+      "sha256": "aadedb190d67f70f07b2485bdf7d43d03ef6349d593584dbeaca9ad0f9ffbc0b"
+    },
+    {
+      "source_path": "language/docs/design/architecture.md",
+      "destination_path": "language/docs/design/architecture.md",
+      "sha256": "f915c67a2a09e26c3de333cb4897d9b26d222dc4d4fc643855aaa2dc7b5e6cec"
+    },
+    {
+      "source_path": "language/docs/design/compiler-architecture.md",
+      "destination_path": "language/docs/design/compiler-architecture.md",
+      "sha256": "d88487e5ceee63747de24a770722c3da3175dc54b03e9aca2c76636a018d8268"
+    },
+    {
+      "source_path": "language/docs/design/decisions/0001-declarative-parser.md",
+      "destination_path": "language/docs/design/decisions/0001-declarative-parser.md",
+      "sha256": "35b2975512b1918e41325d3948a9a3b85f8b8e917aede2452f7bface5ae36ae7"
+    },
+    {
+      "source_path": "language/docs/design/decisions/0002-shared-ir-boundaries.md",
+      "destination_path": "language/docs/design/decisions/0002-shared-ir-boundaries.md",
+      "sha256": "ba4af4dd422e15f533456b5a73bcb68f1e75b06fa944b0feea5bb7508b8e46e7"
+    },
+    {
+      "source_path": "language/docs/design/decisions/0003-native-descriptor-boundary.md",
+      "destination_path": "language/docs/design/decisions/0003-native-descriptor-boundary.md",
+      "sha256": "b2e7cb392db4197d665a48aaeb84c22285239c785977dac7d640761d5ba9e174"
+    },
+    {
+      "source_path": "language/docs/design/decisions/0004-json-module-descriptors.md",
+      "destination_path": "language/docs/design/decisions/0004-json-module-descriptors.md",
+      "sha256": "f476a35d10ebcfaec165fde08670fd3e8e2b69a3407c060effd7fe601eb2921e"
+    },
+    {
+      "source_path": "language/docs/design/distribution.md",
+      "destination_path": "language/docs/design/distribution-before-extraction.md",
+      "sha256": "d964a5a4698bfa7e6dc62e423745a3e469b59f8bc897695011ee3fb258a0f8f4"
+    },
+    {
+      "source_path": "language/docs/design/documentation.md",
+      "destination_path": "language/docs/design/documentation.md",
+      "sha256": "8a1aa6aa704d5b1f6a5c3ac42bddf9875af8ed5ea8d8ca74c35b34e2b0085bf2"
+    },
+    {
+      "source_path": "language/docs/design/migration-catalogue.md",
+      "destination_path": "language/docs/design/migration-catalogue.md",
+      "sha256": "f5fdd4487349a61c0492b2ad5a58ef216a0fd5ec79a06b55fdeed8c2a18cc7f4"
+    },
+    {
+      "source_path": "language/docs/design/roadmap.md",
+      "destination_path": "language/docs/design/roadmap.md",
+      "sha256": "b12d43648e144777bb664c9642f93fb70911be0223d515c65bbac26f5a5c0a36"
+    },
+    {
+      "source_path": "language/docs/developer-guide/README.md",
+      "destination_path": "language/docs/developer-guide/README.md",
+      "sha256": "e1d848778811c9b7b1706ddd7a9622866fbe4b6cbf70be1ec3842bd88859fb38"
+    },
+    {
+      "source_path": "language/docs/developer-guide/compiler-and-lowering.md",
+      "destination_path": "language/docs/developer-guide/compiler-and-lowering.md",
+      "sha256": "be6fab4d65d139d3465fa5f263a21ab9650db5cee0f03f1291bf3ce689a1b042"
+    },
+    {
+      "source_path": "language/docs/developer-guide/control-flow-cpp-mappings.md",
+      "destination_path": "language/docs/developer-guide/control-flow-cpp-mappings.md",
+      "sha256": "d6a2a61805afd18e555ea32fd30db54142bc26785e518bccc905dccc18a67a9d"
+    },
+    {
+      "source_path": "language/docs/developer-guide/enum-cpp-mappings.md",
+      "destination_path": "language/docs/developer-guide/enum-cpp-mappings.md",
+      "sha256": "f5b7aa5f46a164d5ee74abb7b3478024d0cd69696e8df410b75fa14e3acba48f"
+    },
+    {
+      "source_path": "language/docs/developer-guide/enum-switch-cpp-mappings.md",
+      "destination_path": "language/docs/developer-guide/enum-switch-cpp-mappings.md",
+      "sha256": "dacff025d25073b15a69d7879c7c280c14cd348cfb81a40c8320d82b02727053"
+    },
+    {
+      "source_path": "language/docs/developer-guide/native-modules-and-packages.md",
+      "destination_path": "language/docs/developer-guide/native-modules-and-packages.md",
+      "sha256": "fd93ececd4d08cb051034db5643450ef459eea88b980b130d87bfef1ba770d18"
+    },
+    {
+      "source_path": "language/docs/developer-guide/operator-cpp-mappings.md",
+      "destination_path": "language/docs/developer-guide/operator-cpp-mappings.md",
+      "sha256": "9d340f5874ecc1a47e66d0bafbf60d97707e93d818c07af28bf7b0665eac735e"
+    },
+    {
+      "source_path": "language/docs/developer-guide/shared-sources.md",
+      "destination_path": "language/docs/developer-guide/shared-sources.md",
+      "sha256": "de3d3101eb5788c118530412fb92b585b8d0b9f533c1d24cfabb0eeee457c368"
+    },
+    {
+      "source_path": "language/docs/developer-guide/testing-and-compatibility.md",
+      "destination_path": "language/docs/developer-guide/testing-and-compatibility.md",
+      "sha256": "7ff9218c8ebcfa015679e7551b76244a1cae693da6f59edf9053fe4374fa73e3"
+    },
+    {
+      "source_path": "language/examples/impl/const-debug-cpp.hgl",
+      "destination_path": "language/examples/impl/const-debug-cpp.hgl",
+      "sha256": "ea8417a0ab0bca8ae2471b2a6b90bcfd62ca6e4a4905b853c6f042f89e1e431f"
+    },
+    {
+      "source_path": "language/generated/README.md",
+      "destination_path": "language/generated/README.md",
+      "sha256": "837c2b5ac2ae85f52214df2e6ec6b894e7eed8bcc5fde18dedb079f1bbe5fa66"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/native.cpp",
+      "destination_path": "language/generated/cpp/hgraph/native.cpp",
+      "sha256": "8b5ab3ad4e64b0c136478171a55e8b5aa7f2e736726a917027337ca331f2141b"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/native.h",
+      "destination_path": "language/generated/cpp/hgraph/native.h",
+      "sha256": "8adddea2e8145ba0fc4599c203833300356155c7dc00e8832916a212d3b461e1"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/operators.cpp",
+      "destination_path": "language/generated/cpp/hgraph/operators.cpp",
+      "sha256": "34079643bec2a4ea2d0df96e443e42796b498deb8160c519031dc62536e2bf8a"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/operators.h",
+      "destination_path": "language/generated/cpp/hgraph/operators.h",
+      "sha256": "60aced06f29f2e39980bd242bf2f35e0eec1c85aae735c4b813e84e0cfeae0d0"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/operators.h.impl.h",
+      "destination_path": "language/generated/cpp/hgraph/operators.h.impl.h",
+      "sha256": "24ab3f3759b03b8a04fd64b10f38fe8cd7fc96a3101cc70a7775d5713ddd2615"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/operators.part0.cpp",
+      "destination_path": "language/generated/cpp/hgraph/operators.part0.cpp",
+      "sha256": "697244137171676d0351b28d8e066c4944556a1e936fb5edaed6193bfd6af5d2"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/operators.part1.cpp",
+      "destination_path": "language/generated/cpp/hgraph/operators.part1.cpp",
+      "sha256": "4f9b373e4d0a310c826b9324a43fc2472134301e833f0df16bea1a735d63872d"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/operators.part2.cpp",
+      "destination_path": "language/generated/cpp/hgraph/operators.part2.cpp",
+      "sha256": "b3c289b15750739eb925f674c73b4a13f29d6d9474375cd63f2ce91a46142b7c"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/operators.part3.cpp",
+      "destination_path": "language/generated/cpp/hgraph/operators.part3.cpp",
+      "sha256": "75ea37c2bd19096f0991daee90cfb0a90cd85e812521e4c8b7156c69581ff16a"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/operators.part4.cpp",
+      "destination_path": "language/generated/cpp/hgraph/operators.part4.cpp",
+      "sha256": "2154761760258a8538dcb9d2e7cd64a5bc15bd7f0d18d70d017fc80a5e759df8"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/operators.part5.cpp",
+      "destination_path": "language/generated/cpp/hgraph/operators.part5.cpp",
+      "sha256": "149b3b062d30cdb674d1b97ff0a9f5ff0106a029b54f8fe90d9480b011dcd762"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/operators.part6.cpp",
+      "destination_path": "language/generated/cpp/hgraph/operators.part6.cpp",
+      "sha256": "769a636c40c1066d2783cf375b64933c67925af3ea03bb6fda2dc9503c76eb81"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/operators.part7.cpp",
+      "destination_path": "language/generated/cpp/hgraph/operators.part7.cpp",
+      "sha256": "1db7813fe951fc8c59a844752292d8c66c7f8aba423af9fcebd93fc3060f4050"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/standard.cpp",
+      "destination_path": "language/generated/cpp/hgraph/standard.cpp",
+      "sha256": "c772f20604ddecb9aa9a79ff642793344791caca8da385ee538709cd63f24c04"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/standard.h",
+      "destination_path": "language/generated/cpp/hgraph/standard.h",
+      "sha256": "75072300c040684b260216a2ee92c2c7d67a7b5d6342f156714067afb16a8462"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/standard.h.impl.h",
+      "destination_path": "language/generated/cpp/hgraph/standard.h.impl.h",
+      "sha256": "2d729bc93d2d82e8fe6434ce064eb58be786b77c08e236c066d55c563d9bbe81"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/standard.part0.cpp",
+      "destination_path": "language/generated/cpp/hgraph/standard.part0.cpp",
+      "sha256": "cefb4f6093a199bdc30c697b268f3cad8980529ed74355a9983dcc64ede97eca"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/standard.part1.cpp",
+      "destination_path": "language/generated/cpp/hgraph/standard.part1.cpp",
+      "sha256": "040508faec5462310856cc5e990eb01a0f1a595d28c0e7c79c91f99770fc7d8d"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/standard.part2.cpp",
+      "destination_path": "language/generated/cpp/hgraph/standard.part2.cpp",
+      "sha256": "8fc5c84aaa1fabd0cfa086ab89cfe7a7accdf6c47c4926c15c8feacb1bfb9fa3"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/standard.part3.cpp",
+      "destination_path": "language/generated/cpp/hgraph/standard.part3.cpp",
+      "sha256": "2d7e9372d380d038f925d54e3650f707cacaf417988fef256bf49b8258b2f562"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/standard.part4.cpp",
+      "destination_path": "language/generated/cpp/hgraph/standard.part4.cpp",
+      "sha256": "adfbe66ec129396b0661bef2a7a3666fe29caf41617f9506bc0d6182bb2b7dca"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/standard.part5.cpp",
+      "destination_path": "language/generated/cpp/hgraph/standard.part5.cpp",
+      "sha256": "6693d4fb19cf05741628b4b0f9a25baae45d1dc962bad537659bcbced6c11ff0"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/standard.part6.cpp",
+      "destination_path": "language/generated/cpp/hgraph/standard.part6.cpp",
+      "sha256": "6c70fc09311d04e7415c590de5d89db89341a892d346db51f24b8dd193a796c9"
+    },
+    {
+      "source_path": "language/generated/cpp/hgraph/standard.part7.cpp",
+      "destination_path": "language/generated/cpp/hgraph/standard.part7.cpp",
+      "sha256": "c70094791706a305edc3129a258fec8da3a4b7b359a257c9b377caeb2661eb0b"
+    },
+    {
+      "source_path": "language/include/hgl/capture.h",
+      "destination_path": "language/include/hgl/capture.h",
+      "sha256": "774eb07e2e4e41fdcab9b6222ad51b9afbb18d7a4aa7464d632281ba09d6b436"
+    },
+    {
+      "source_path": "language/include/hgl/constant_arithmetic.h",
+      "destination_path": "language/include/hgl/constant_arithmetic.h",
+      "sha256": "ca9654bc4515c816a5d0511eafb2dd00411c2d29e306051e3b70d55ed6305f1d"
+    },
+    {
+      "source_path": "language/include/hgl/execution_error.h",
+      "destination_path": "language/include/hgl/execution_error.h",
+      "sha256": "b8075b54af20d2858d20e70d075a72f0aefe6cae00669e79382fb8094288513e"
+    },
+    {
+      "source_path": "language/include/hgl/generic_collections.h",
+      "destination_path": "language/include/hgl/generic_collections.h",
+      "sha256": "f326aff08f9f42e2e52064d340dfe3d9453bad14ded10d42aa34212978f2559a"
+    },
+    {
+      "source_path": "language/include/hgl/global_key_preflight.h",
+      "destination_path": "language/include/hgl/global_key_preflight.h",
+      "sha256": "e696b1b24bfff6fe414a2a2f7af4f5135d60ec3260b1d356b724fc7c7d3b9424"
+    },
+    {
+      "source_path": "language/include/hgl/native_module_abi.h",
+      "destination_path": "language/include/hgl/native_module_abi.h",
+      "sha256": "b1afcadbce8b0d48221350cc6aa7272a49f02982b9edfda31404c1f198f51799"
+    },
+    {
+      "source_path": "language/include/hgl/native_package.h",
+      "destination_path": "language/include/hgl/native_package.h",
+      "sha256": "537df6dc3520a2913c10c3d1bbc50571849767e5285945c64618df9dff38c56a"
+    },
+    {
+      "source_path": "language/include/hgl/native_values.h",
+      "destination_path": "language/include/hgl/native_values.h",
+      "sha256": "ab01d5a1b6f53259fff0c5cc018e76bce9592c900b73711aca382e14d4821003"
+    },
+    {
+      "source_path": "language/include/hgl/ordinary_patterns.h",
+      "destination_path": "language/include/hgl/ordinary_patterns.h",
+      "sha256": "0d4516983804a02cc484742212864a725ee4a3610ba8f505eacdf56aedd9b37f"
+    },
+    {
+      "source_path": "language/include/hgl/ordinary_values.h",
+      "destination_path": "language/include/hgl/ordinary_values.h",
+      "sha256": "2c4910c771ee20aa6fe2cb16b5d1d680966a9c9b3ff174e5dced3152f4909b40"
+    },
+    {
+      "source_path": "language/include/hgl/result_values.h",
+      "destination_path": "language/include/hgl/result_values.h",
+      "sha256": "2e88d2b57cc7a17a4d2ad3fa2049fa2862eb0ee54c5bda9eaa74e020de84a9c7"
+    },
+    {
+      "source_path": "language/include/hgl/temporal_literals.h",
+      "destination_path": "language/include/hgl/temporal_literals.h",
+      "sha256": "12aca781b3556bc2cf793a9cea3bea9eedb3dee08c57a2f5e802f15b21c01aab"
+    },
+    {
+      "source_path": "language/src/README.md",
+      "destination_path": "language/src/README.md",
+      "sha256": "943624fb7549378c13d47a071bed2a420b7bdaf6a06a6a71097d526648f617c9"
+    },
+    {
+      "source_path": "language/src/codegen/cpp_emitter.cpp",
+      "destination_path": "language/src/codegen/cpp_emitter.cpp",
+      "sha256": "319ca5cee8a39ff476cb11acba3ec76f5c84c16c1f0518b39b6e6de292204b6b"
+    },
+    {
+      "source_path": "language/src/codegen/cpp_emitter.h",
+      "destination_path": "language/src/codegen/cpp_emitter.h",
+      "sha256": "8b4572d9232f6f7801b9f2e23d88faf28285a6c7c40db164326beda5454cfa47"
+    },
+    {
+      "source_path": "language/src/codegen/native_rust.cpp",
+      "destination_path": "language/src/codegen/native_rust.cpp",
+      "sha256": "315d01efc4c43feece89f106438ee729bd49dbe1c54742638009047c5ae8f6f0"
+    },
+    {
+      "source_path": "language/src/codegen/native_rust.h",
+      "destination_path": "language/src/codegen/native_rust.h",
+      "sha256": "39dd72010bcf1516b382ea851e9d5bac094e5be8e07e900ba93b20d13b8e770d"
+    },
+    {
+      "source_path": "language/src/descriptor/import_catalog.cpp",
+      "destination_path": "language/src/descriptor/import_catalog.cpp",
+      "sha256": "f97d0cb9a247a006f3ff88e0e1e32a399694502e81a70d7ae2d91154a873c55e"
+    },
+    {
+      "source_path": "language/src/descriptor/import_catalog.h",
+      "destination_path": "language/src/descriptor/import_catalog.h",
+      "sha256": "780bb5ddfdf7381c06b177b52464ba2d22a5ddc6707fe29af202919f34072553"
+    },
+    {
+      "source_path": "language/src/descriptor/module_descriptor.cpp",
+      "destination_path": "language/src/descriptor/module_descriptor.cpp",
+      "sha256": "da6648b603cff39cca2ade4dc3656a5c7d06d767bd344cd783749cd8c072fa93"
+    },
+    {
+      "source_path": "language/src/descriptor/module_descriptor.h",
+      "destination_path": "language/src/descriptor/module_descriptor.h",
+      "sha256": "93e4bb263f799c4a6d42ec70903646cea0574368fb928831538e3bde7b76712a"
+    },
+    {
+      "source_path": "language/src/descriptor/module_descriptor_json.cpp",
+      "destination_path": "language/src/descriptor/module_descriptor_json.cpp",
+      "sha256": "30c65a11e26bcc724307dba3f47df43f578dacc89170b63d7a0ddac3166f8808"
+    },
+    {
+      "source_path": "language/src/descriptor/module_descriptor_reader.cpp",
+      "destination_path": "language/src/descriptor/module_descriptor_reader.cpp",
+      "sha256": "18791d5a3d7927fb1213baf146c905b411be3028c3684864089113eabf69dbf3"
+    },
+    {
+      "source_path": "language/src/descriptor/module_descriptor_reader.h",
+      "destination_path": "language/src/descriptor/module_descriptor_reader.h",
+      "sha256": "b2214126d1c2c05067197fb819f915028bdde4decd417c53e9c89a93b278b5fa"
+    },
+    {
+      "source_path": "language/src/descriptor/sha256.cpp",
+      "destination_path": "language/src/descriptor/sha256.cpp",
+      "sha256": "d3351d8181de108d615c98b19867570d77d11877b577f0b366484dddf2c41eb1"
+    },
+    {
+      "source_path": "language/src/descriptor/sha256.h",
+      "destination_path": "language/src/descriptor/sha256.h",
+      "sha256": "642ad4dea14e6297d639f6335e9ce400964565aab1a2a10ae4916e4b9fc80e18"
+    },
+    {
+      "source_path": "language/src/driver/cpp_formatter.cpp",
+      "destination_path": "language/src/driver/cpp_formatter.cpp",
+      "sha256": "acd7f47f4ce40f7ffe262a2fae60375bacc67557c3750e12f7d22cf2b3d787c7"
+    },
+    {
+      "source_path": "language/src/driver/cpp_formatter.h",
+      "destination_path": "language/src/driver/cpp_formatter.h",
+      "sha256": "f38af46b39cd10a73ef617d161cd748435a29b9637dfa0bb389e4aeaa510d319"
+    },
+    {
+      "source_path": "language/src/driver/driver.cpp",
+      "destination_path": "language/src/driver/driver.cpp",
+      "sha256": "1761b4865b8c61470a32ee9d04468f277174b5a240464cc31786f73a3530c31e"
+    },
+    {
+      "source_path": "language/src/driver/driver.h",
+      "destination_path": "language/src/driver/driver.h",
+      "sha256": "249c6b8cb2447a97dfdd0bc563fc8f6c097548c9e2f48772afd158b0310d9d7a"
+    },
+    {
+      "source_path": "language/src/driver/line_reader.cpp",
+      "destination_path": "language/src/driver/line_reader.cpp",
+      "sha256": "12d955054f6bb159af2e0a9c24ddfa8bc25bd3cd515b90b6fcf6b7e873484793"
+    },
+    {
+      "source_path": "language/src/driver/line_reader.h",
+      "destination_path": "language/src/driver/line_reader.h",
+      "sha256": "2aca364a074a33ca4f3662dea8b7366286ee5c76afb79a17c3a345be13ffbcdf"
+    },
+    {
+      "source_path": "language/src/driver/native_module.cpp",
+      "destination_path": "language/src/driver/native_module.cpp",
+      "sha256": "c8133415ec82bc8f161bcddf97dd38618c90e1da94114f646dbd6e2d74f3505f"
+    },
+    {
+      "source_path": "language/src/driver/native_module.h",
+      "destination_path": "language/src/driver/native_module.h",
+      "sha256": "2d45164f9016ea01109e1826ce1f9bf196a708eb005ff7332f6cff65876478e6"
+    },
+    {
+      "source_path": "language/src/driver/process.cpp",
+      "destination_path": "language/src/driver/process.cpp",
+      "sha256": "57db2d054948747f6e22329bd2a272b0bd27edb33418a2e43b7630c85eb28b75"
+    },
+    {
+      "source_path": "language/src/driver/process.h",
+      "destination_path": "language/src/driver/process.h",
+      "sha256": "8a81aa68346af46b175b905a8aea57d2a5fe7be193ae199e888a614cbd99c233"
+    },
+    {
+      "source_path": "language/src/driver/rejection_source.cpp",
+      "destination_path": "language/src/driver/rejection_source.cpp",
+      "sha256": "1069b2b2ac9befb0645f07817266cd343b41ce894eaeedb8a435767871fee1d3"
+    },
+    {
+      "source_path": "language/src/driver/rejection_source.h",
+      "destination_path": "language/src/driver/rejection_source.h",
+      "sha256": "50938c0be2f9cb50791908933c23cc6e743255d373c96a100cd42bba277692d1"
+    },
+    {
+      "source_path": "language/src/hgraph_ir/complete.cpp",
+      "destination_path": "language/src/hgraph_ir/complete.cpp",
+      "sha256": "865c2c941146b12a55ee6d1cea7a243290d9be79f4386724469913f4b3b839c3"
+    },
+    {
+      "source_path": "language/src/hgraph_ir/complete.h",
+      "destination_path": "language/src/hgraph_ir/complete.h",
+      "sha256": "9339f90a60fa5234cc0a67655b0b97deb7ce7cce4fb2c528811a786510a1f834"
+    },
+    {
+      "source_path": "language/src/hgraph_ir/control_flow.cpp",
+      "destination_path": "language/src/hgraph_ir/control_flow.cpp",
+      "sha256": "368789884f1f28457ae5b9dafcc255ea275f6021b2d14dec8f4c3a05a0dedf6d"
+    },
+    {
+      "source_path": "language/src/hgraph_ir/control_flow.h",
+      "destination_path": "language/src/hgraph_ir/control_flow.h",
+      "sha256": "df2155a9fb5d41dbb005a1d1da12816fe99827586bf0c7ddbf6883a0088fe73f"
+    },
+    {
+      "source_path": "language/src/hgraph_ir/ir.h",
+      "destination_path": "language/src/hgraph_ir/ir.h",
+      "sha256": "fa078d25fa1fa636ba92ae2862e3a2871fd8f413b43cf817857092e3b1c6b3bb"
+    },
+    {
+      "source_path": "language/src/hgraph_ir/lower.cpp",
+      "destination_path": "language/src/hgraph_ir/lower.cpp",
+      "sha256": "17f654e927f153a54d9c03343bb1dc92b39c6d625e5482da64b6b45640fe1e8d"
+    },
+    {
+      "source_path": "language/src/hgraph_ir/lower.h",
+      "destination_path": "language/src/hgraph_ir/lower.h",
+      "sha256": "c9a33f162b6ed1de6ef1b1510363c866a694cf386984b3e88754988ed3b48c05"
+    },
+    {
+      "source_path": "language/src/hgraph_ir/plan.cpp",
+      "destination_path": "language/src/hgraph_ir/plan.cpp",
+      "sha256": "5ca4adff45915c60fbc8632608741e2ea4e1c25918f8c4cf79ac09f8f58a5a3c"
+    },
+    {
+      "source_path": "language/src/hgraph_ir/plan.h",
+      "destination_path": "language/src/hgraph_ir/plan.h",
+      "sha256": "c4ee29ac81d696e5851227227da29994d2053d8f454001ab081f3aaf850fa640"
+    },
+    {
+      "source_path": "language/src/hgraph_ir/printer.cpp",
+      "destination_path": "language/src/hgraph_ir/printer.cpp",
+      "sha256": "e40bf5d6a10a9f2be6d0107680b5821d09c0fea654f709d0333b975196e12dfd"
+    },
+    {
+      "source_path": "language/src/hgraph_ir/printer.h",
+      "destination_path": "language/src/hgraph_ir/printer.h",
+      "sha256": "78069c47928596a3f226ebc1c15cf39e6fa7e8be911106760ce069c8ab44a1b7"
+    },
+    {
+      "source_path": "language/src/hgraph_ir/shape_parameters.h",
+      "destination_path": "language/src/hgraph_ir/shape_parameters.h",
+      "sha256": "af9b756da3a0d4456623b6455b7cf1ffb89a745223c9268006aa77d8b6bc25c6"
+    },
+    {
+      "source_path": "language/src/hgraph_ir/uses.cpp",
+      "destination_path": "language/src/hgraph_ir/uses.cpp",
+      "sha256": "b760e05afc25d4bb2c4a21c78024c9f59f4c17cd015161efb3deab46625af62a"
+    },
+    {
+      "source_path": "language/src/hgraph_ir/uses.h",
+      "destination_path": "language/src/hgraph_ir/uses.h",
+      "sha256": "7c56660142faf36be70274c6ebd71d9dee8dea898eeeb60734bd7a0908e18f6d"
+    },
+    {
+      "source_path": "language/src/ir/canonical_types.cpp",
+      "destination_path": "language/src/ir/canonical_types.cpp",
+      "sha256": "5af1e0765f1691b10abdb6a349613b5797472f2f5161b269c76db44403a44138"
+    },
+    {
+      "source_path": "language/src/ir/canonical_types.h",
+      "destination_path": "language/src/ir/canonical_types.h",
+      "sha256": "aa071c20433d402e3e427779e4ea14be8f946cebe65429eb43ca49d4a00561b4"
+    },
+    {
+      "source_path": "language/src/ir/constraint_solver.cpp",
+      "destination_path": "language/src/ir/constraint_solver.cpp",
+      "sha256": "479cdb7b5a626248b9fb78e02847c4ee63eabf932983afdb59e358091a55373d"
+    },
+    {
+      "source_path": "language/src/ir/constraint_solver.h",
+      "destination_path": "language/src/ir/constraint_solver.h",
+      "sha256": "80e113233bd5fed63a5a02ab28cc26ba1c75b4695685f5c5ca97ecdcecb4651a"
+    },
+    {
+      "source_path": "language/src/ir/definite_assignment.cpp",
+      "destination_path": "language/src/ir/definite_assignment.cpp",
+      "sha256": "c27857307a7a2b9b02759b1c33e2c99b45be0e0f002878c2eb279a80a348a705"
+    },
+    {
+      "source_path": "language/src/ir/definite_assignment.h",
+      "destination_path": "language/src/ir/definite_assignment.h",
+      "sha256": "b5293a6b411cf37b6e94e488fa6a25c28c0b92aaae94749bccb996a00096dac9"
+    },
+    {
+      "source_path": "language/src/ir/generic_substitution.cpp",
+      "destination_path": "language/src/ir/generic_substitution.cpp",
+      "sha256": "2f0ea72cb6e667c97b3b0fd032ee16a4dc1a5b1e0e50bcd3ebeb1f0da034de00"
+    },
+    {
+      "source_path": "language/src/ir/generic_substitution.h",
+      "destination_path": "language/src/ir/generic_substitution.h",
+      "sha256": "28666adc925eb1955a13e84915c9e518ac7cbb1717f936e1064b66a2a3428b2f"
+    },
+    {
+      "source_path": "language/src/ir/hir.cpp",
+      "destination_path": "language/src/ir/hir.cpp",
+      "sha256": "9859cac641735a982b99073705762cd28efde836a435dc7889db1e17ccd74dd9"
+    },
+    {
+      "source_path": "language/src/ir/hir.h",
+      "destination_path": "language/src/ir/hir.h",
+      "sha256": "538789f126468727af8d74a8a1f2e54369f8b00918d5bdef679c0df1b1cb57a8"
+    },
+    {
+      "source_path": "language/src/ir/hir_printer.cpp",
+      "destination_path": "language/src/ir/hir_printer.cpp",
+      "sha256": "31b83984aee39e20739ae0e8b5600be56fdea7903ee1623b79e819a586bd8409"
+    },
+    {
+      "source_path": "language/src/ir/hir_printer.h",
+      "destination_path": "language/src/ir/hir_printer.h",
+      "sha256": "027aaf9d20a27b1ec6b2971dc7456079b0e0977a3e3d08512bb9dcac961abb12"
+    },
+    {
+      "source_path": "language/src/ir/list_literal_admission.cpp",
+      "destination_path": "language/src/ir/list_literal_admission.cpp",
+      "sha256": "66b3d7a626d7326179aa9c08f03be42eda6e82b05f72a84a8b0689258c4b9c52"
+    },
+    {
+      "source_path": "language/src/ir/list_literal_admission.h",
+      "destination_path": "language/src/ir/list_literal_admission.h",
+      "sha256": "a494d14aa2a87a94a136ef09022a14b84922aa1198d7cef860d61150499b346d"
+    },
+    {
+      "source_path": "language/src/ir/lower.cpp",
+      "destination_path": "language/src/ir/lower.cpp",
+      "sha256": "4753261afdf5954baa29505eb85f90da89592d79843f33ba227462b4feccc152"
+    },
+    {
+      "source_path": "language/src/ir/lower.h",
+      "destination_path": "language/src/ir/lower.h",
+      "sha256": "a2a0b9cfdb0fa80b1c70cf602bba6c714a83166295f827ad37d93f1da4170399"
+    },
+    {
+      "source_path": "language/src/ir/operator_shape.h",
+      "destination_path": "language/src/ir/operator_shape.h",
+      "sha256": "2e6762748300324ee738d0c5e6c476067b73a9dda430685a744c20b40db8e312"
+    },
+    {
+      "source_path": "language/src/ir/type_check.cpp",
+      "destination_path": "language/src/ir/type_check.cpp",
+      "sha256": "ab91d0baf109c04b26c5967f2b3bb64df07cb846704923df6b6d8575a65b04f0"
+    },
+    {
+      "source_path": "language/src/ir/type_check.h",
+      "destination_path": "language/src/ir/type_check.h",
+      "sha256": "578ad24fddadf4898e1f8330dbf4b99f3bc239fbb403252162d287bc46ec7c4c"
+    },
+    {
+      "source_path": "language/src/main.cpp",
+      "destination_path": "language/src/main.cpp",
+      "sha256": "065c05ed4cd92a5288839a2e0a4d858491d9cb90b9a6d602d47adff9136fd920"
+    },
+    {
+      "source_path": "language/src/native/native_package.cpp",
+      "destination_path": "language/src/native/native_package.cpp",
+      "sha256": "645d04956c2ad91b1c8e69b3ccb7b3bf7a6a9d9d1e1601af8f1bb2a51e13c93b"
+    },
+    {
+      "source_path": "language/src/native_contract.h",
+      "destination_path": "language/src/native_contract.h",
+      "sha256": "ce555935443ec6ead131df67705791afe4046c32d5c939eac8aff863b4bacf3e"
+    },
+    {
+      "source_path": "language/src/semantics/module_catalog.h",
+      "destination_path": "language/src/semantics/module_catalog.h",
+      "sha256": "ec336ba3b4b1bcc59ad0c85440fd19503bc1909bd4a835a536b511737f374b7b"
+    },
+    {
+      "source_path": "language/src/semantics/resolve.cpp",
+      "destination_path": "language/src/semantics/resolve.cpp",
+      "sha256": "aa8144dd8792a4807ef0cc11074ec13213b72784fa234898b60ed9a548cbb8a9"
+    },
+    {
+      "source_path": "language/src/semantics/resolve.h",
+      "destination_path": "language/src/semantics/resolve.h",
+      "sha256": "37ce3942125b838e72e39af09ec1e208d122446bf0cdc7b3a99f1aa38a495b83"
+    },
+    {
+      "source_path": "language/src/syntax/ast.cpp",
+      "destination_path": "language/src/syntax/ast.cpp",
+      "sha256": "e47fb3fa544595ec345989e0c792e3113df16f7d9537cd9e6c73ca20f58a9594"
+    },
+    {
+      "source_path": "language/src/syntax/ast.h",
+      "destination_path": "language/src/syntax/ast.h",
+      "sha256": "63e2782b70dc546f782dd08336fdb50745f02b108f74a72c2f469af0eba46dbc"
+    },
+    {
+      "source_path": "language/src/syntax/ast_printer.cpp",
+      "destination_path": "language/src/syntax/ast_printer.cpp",
+      "sha256": "eb2030171c893911b28275ffd24fea3da8609c49e5c2a4c92f7bb8e7f3131be9"
+    },
+    {
+      "source_path": "language/src/syntax/ast_printer.h",
+      "destination_path": "language/src/syntax/ast_printer.h",
+      "sha256": "1cc5b6d95139ef8c8b9de1cfd6cba4539dbe80220da7db75271b4e8925c9d1ea"
+    },
+    {
+      "source_path": "language/src/syntax/ast_projection.cpp",
+      "destination_path": "language/src/syntax/ast_projection.cpp",
+      "sha256": "27666c9075d32d426ea4e925262cf157b1629a721ca0c0165d960c9af2e27a86"
+    },
+    {
+      "source_path": "language/src/syntax/ast_projection.h",
+      "destination_path": "language/src/syntax/ast_projection.h",
+      "sha256": "5dc5caf3655d7f92d8a34366e0341ad2aad9d7ada121963970b1739734de9ded"
+    },
+    {
+      "source_path": "language/src/syntax/diagnostic.cpp",
+      "destination_path": "language/src/syntax/diagnostic.cpp",
+      "sha256": "e1b9293ba78c04333423c66d738325e85f729b7012e6bfb4eccbde97db939cd2"
+    },
+    {
+      "source_path": "language/src/syntax/diagnostic.h",
+      "destination_path": "language/src/syntax/diagnostic.h",
+      "sha256": "efe03e6ddde6aff3f8fcf2e8eae55a42d3879cee9934fdffbda48fe8b0684d2e"
+    },
+    {
+      "source_path": "language/src/syntax/documentation.cpp",
+      "destination_path": "language/src/syntax/documentation.cpp",
+      "sha256": "69182c45fc79071d4ce9d0a0c9689c67f07247a804abe317e0a634404fa9df82"
+    },
+    {
+      "source_path": "language/src/syntax/documentation.h",
+      "destination_path": "language/src/syntax/documentation.h",
+      "sha256": "3aa98f981b9bcd409efe10eb70818094a027aea5665db8110100d6984bc4f7d6"
+    },
+    {
+      "source_path": "language/src/syntax/formatter.cpp",
+      "destination_path": "language/src/syntax/formatter.cpp",
+      "sha256": "8fc941a17c8e02b842819735f81d69c2e996e70e86ead0ab7c28ff9a2f12f188"
+    },
+    {
+      "source_path": "language/src/syntax/formatter.h",
+      "destination_path": "language/src/syntax/formatter.h",
+      "sha256": "73884e69fa59913609ddc0795d87effa7eea016a5957a183999f09233bd3648c"
+    },
+    {
+      "source_path": "language/src/syntax/lexer.cpp",
+      "destination_path": "language/src/syntax/lexer.cpp",
+      "sha256": "8ab26d7b61d3f94793bb98bbb6a2f223aaa3eaa141923fbe6efc59351801c5b3"
+    },
+    {
+      "source_path": "language/src/syntax/lexer.h",
+      "destination_path": "language/src/syntax/lexer.h",
+      "sha256": "828cbd973a30db37b60e953b100b613468d8864fc5f6750ca598888a7f7f7fd8"
+    },
+    {
+      "source_path": "language/src/syntax/parser.cpp",
+      "destination_path": "language/src/syntax/parser.cpp",
+      "sha256": "5ace5f66fb3ef313de9c327e9e20e6bf1182792e591b52e3dbdb5fae061ed41e"
+    },
+    {
+      "source_path": "language/src/syntax/parser.h",
+      "destination_path": "language/src/syntax/parser.h",
+      "sha256": "2cad235085bfb37bb939b89fc8328abfc39329b78955e76b8064559cd76a9bc8"
+    },
+    {
+      "source_path": "language/src/syntax/source.cpp",
+      "destination_path": "language/src/syntax/source.cpp",
+      "sha256": "9b748d770912b079be95beea9e319d99efe2aee9c9cd6b96f19bfee5544fb514"
+    },
+    {
+      "source_path": "language/src/syntax/source.h",
+      "destination_path": "language/src/syntax/source.h",
+      "sha256": "b1d01a20efc7d1cbdb41a1eee135848038558ce88bdda762c46aa9891759a291"
+    },
+    {
+      "source_path": "language/src/syntax/syntax_diagnostics.cpp",
+      "destination_path": "language/src/syntax/syntax_diagnostics.cpp",
+      "sha256": "9e56e6291f6878d08df82c89adce3f8d7fa6cb8fa47c2001515b16e73389679d"
+    },
+    {
+      "source_path": "language/src/syntax/syntax_diagnostics.h",
+      "destination_path": "language/src/syntax/syntax_diagnostics.h",
+      "sha256": "74c2c1970920f6263a2b39db041109a67db9cc8a4247a945a0f8fad4be331772"
+    },
+    {
+      "source_path": "language/src/syntax/syntax_tree.cpp",
+      "destination_path": "language/src/syntax/syntax_tree.cpp",
+      "sha256": "4374b322c520b11af08adc54807df34b94ec982c09141b590e2444e1e9316891"
+    },
+    {
+      "source_path": "language/src/syntax/syntax_tree.h",
+      "destination_path": "language/src/syntax/syntax_tree.h",
+      "sha256": "8f350e92dfc24ad408bdeabbd82e374306ec5dae6adf5c6f8a4537b8b63e4786"
+    },
+    {
+      "source_path": "language/src/syntax/temporal.cpp",
+      "destination_path": "language/src/syntax/temporal.cpp",
+      "sha256": "9a8b0a8fb62972569948e40c53f1b8c030297dc03656e1d3e431c8cd7c41e011"
+    },
+    {
+      "source_path": "language/src/syntax/temporal.h",
+      "destination_path": "language/src/syntax/temporal.h",
+      "sha256": "b652df3458124c0272e181e27eb4c936ed3b2b648970a9c0f0229e6ffdcd0a64"
+    },
+    {
+      "source_path": "language/src/syntax/token.cpp",
+      "destination_path": "language/src/syntax/token.cpp",
+      "sha256": "df0e716ed365769a8e013fee868b545d6cc0190469deeac6ea1f74e92787d57d"
+    },
+    {
+      "source_path": "language/src/syntax/token.h",
+      "destination_path": "language/src/syntax/token.h",
+      "sha256": "e1b467ea58396bfdf6aceb21980e5d088e9ec1fac3dc6f68a56994e3155147b4"
+    },
+    {
+      "source_path": "language/src/syntax/token_grammar.cpp",
+      "destination_path": "language/src/syntax/token_grammar.cpp",
+      "sha256": "3a195f398f7463c2e8b28b4451836274e3a7a402809a5f2e8edbb5cc0129d397"
+    },
+    {
+      "source_path": "language/src/syntax/token_grammar.h",
+      "destination_path": "language/src/syntax/token_grammar.h",
+      "sha256": "a4b28f9f3bee33e571a12bfd3aa9a51b12ddab0268cc890682ee453640e211c6"
+    },
+    {
+      "source_path": "language/src/wiring/backend.cpp",
+      "destination_path": "language/src/wiring/backend.cpp",
+      "sha256": "eed1e36610be4b9420be0b7def21cbe93b3a34cc4c4d6a90f56064c2fdd3b714"
+    },
+    {
+      "source_path": "language/src/wiring/backend.h",
+      "destination_path": "language/src/wiring/backend.h",
+      "sha256": "5098823a4087dcb2dfc3d01347213658deb105ef26d6dde80e38ceb01a246112"
+    },
+    {
+      "source_path": "language/src/wiring/delta_trace.h",
+      "destination_path": "language/src/wiring/delta_trace.h",
+      "sha256": "fabacd563af795322066d7c565702591b4e795fcf62c140fa7d1b1b81c3f68f5"
+    },
+    {
+      "source_path": "language/src/wiring/operator_types.cpp",
+      "destination_path": "language/src/wiring/operator_types.cpp",
+      "sha256": "c777950efce945999b8fac29d4bff733ddb9315347228096d8d13df3dc6f9128"
+    },
+    {
+      "source_path": "language/src/wiring/operator_types.h",
+      "destination_path": "language/src/wiring/operator_types.h",
+      "sha256": "f697d8f41f963f30b5b9df88cff284614800c755b1ddb183a0f04f9b406c76c5"
+    },
+    {
+      "source_path": "language/src/wiring/type_bridge.cpp",
+      "destination_path": "language/src/wiring/type_bridge.cpp",
+      "sha256": "c126a8a1150edec3e97e2bb594373b6afdce99e5a667fcd40bd4da440a90482f"
+    },
+    {
+      "source_path": "language/src/wiring/type_bridge.h",
+      "destination_path": "language/src/wiring/type_bridge.h",
+      "sha256": "2960266240c220508ac455cd6597b816899daceefb235b6d63c2501310b05f55"
+    },
+    {
+      "source_path": "language/stdlib/README.md",
+      "destination_path": "language/stdlib/README.md",
+      "sha256": "a3f9ce518a0ceadf42b3ef1a0e0766cef51834b2389ea2f13bed53b32e652ea4"
+    },
+    {
+      "source_path": "language/stdlib/cpp/native_scalar.h",
+      "destination_path": "language/stdlib/cpp/native_scalar.h",
+      "sha256": "12486bdba55e973e470a5d729f01a8eb9b0cce33e239d76f0bf1a3dfe20b18c9"
+    },
+    {
+      "source_path": "language/stdlib/hgl/hgraph/README.md",
+      "destination_path": "language/stdlib/hgl/hgraph/README.md",
+      "sha256": "668f9ece43580ad26b05464aec5d9d30da7ea28d34d606db408cbaa01f060ba0"
+    },
+    {
+      "source_path": "language/stdlib/hgl/hgraph/native.hgl",
+      "destination_path": "language/stdlib/hgl/hgraph/native.hgl",
+      "sha256": "0e7a8bfeeb226212854d37c77ea1fcbdfdfde49b2b486da830a9b43d97576d3e"
+    },
+    {
+      "source_path": "language/stdlib/hgl/hgraph/native/impl/cpp_scalar_operators.hgl",
+      "destination_path": "language/stdlib/hgl/hgraph/native/impl/cpp_scalar_operators.hgl",
+      "sha256": "d93370dcd5c4a051be43667e079155d9db39c1f769fff0b2bc5d37e40318df4c"
+    },
+    {
+      "source_path": "language/stdlib/hgl/hgraph/native/impl/cpp_scalar_values.hgl",
+      "destination_path": "language/stdlib/hgl/hgraph/native/impl/cpp_scalar_values.hgl",
+      "sha256": "9e4297a81a7d32dac92073ae1077a40e4f75e7918b45a8fc49cdcf940f4d2b6c"
+    },
+    {
+      "source_path": "language/stdlib/hgl/hgraph/native/impl/cpp_scalar_values_i64.hgl",
+      "destination_path": "language/stdlib/hgl/hgraph/native/impl/cpp_scalar_values_i64.hgl",
+      "sha256": "577cff08a2e427fba792cf796a7a62f54d1c8b0fb28c8bbe567c8b2340371b8a"
+    },
+    {
+      "source_path": "language/stdlib/hgl/hgraph/native/impl/cpp_temporal_values.hgl",
+      "destination_path": "language/stdlib/hgl/hgraph/native/impl/cpp_temporal_values.hgl",
+      "sha256": "8401a168d96a40dc9e92b49bbb87e3fe0b4edc03d9b29cf4078bbedf861f049d"
+    },
+    {
+      "source_path": "language/stdlib/hgl/hgraph/native/sequences.hgl",
+      "destination_path": "language/stdlib/hgl/hgraph/native/sequences.hgl",
+      "sha256": "087aeb7cf720b6fa3759324390932f3970a86c222fd451b61bef8e2996cb22a0"
+    },
+    {
+      "source_path": "language/stdlib/hgl/hgraph/native/sets_maps.hgl",
+      "destination_path": "language/stdlib/hgl/hgraph/native/sets_maps.hgl",
+      "sha256": "5e457ebf382995a40a60a8fd5eec8ca91a01d24906a96fb1df5d68b709f99d80"
+    },
+    {
+      "source_path": "language/stdlib/hgl/hgraph/native/windows.hgl",
+      "destination_path": "language/stdlib/hgl/hgraph/native/windows.hgl",
+      "sha256": "f33fbb60f73af8b9ad721dc4c691d4b45f9d7e94e78bde69b351603f435ac8ed"
+    },
+    {
+      "source_path": "language/tests/CMakeLists.txt",
+      "destination_path": "language/tests/CMakeLists.txt",
+      "sha256": "4e62d3a359d2b66fdcb20396625069644e7c9699c1dbc19ab8b01936de94afd1"
+    },
+    {
+      "source_path": "language/tests/cmake/admission_test.cmake",
+      "destination_path": "language/tests/cmake/admission_test.cmake",
+      "sha256": "aa957783694f0d47e26030bed660d03be940123317631be3dd793231fc15a9bc"
+    },
+    {
+      "source_path": "language/tests/cmake/backend_architecture.cmake",
+      "destination_path": "language/tests/cmake/backend_architecture.cmake",
+      "sha256": "b0dfbe4aa56e54f24d4a045fc6449a54305aa2be60e624b9296c251df281671c"
+    },
+    {
+      "source_path": "language/tests/cmake/backend_architecture_fixture/bridge/ast_adapter.h",
+      "destination_path": "language/tests/cmake/backend_architecture_fixture/bridge/ast_adapter.h",
+      "sha256": "e46a27e414aa8e7d4de0cf218d3bee7b6e02b58ecfda9126eb35be5f60a89ba5"
+    },
+    {
+      "source_path": "language/tests/cmake/backend_architecture_fixture/codegen/fixture.cpp",
+      "destination_path": "language/tests/cmake/backend_architecture_fixture/codegen/fixture.cpp",
+      "sha256": "c02fa1e0411cd3ec8d21749b09091e94cf78152994e5f5784f937daaf9cbbdc4"
+    },
+    {
+      "source_path": "language/tests/cmake/backend_diagnostics.cmake",
+      "destination_path": "language/tests/cmake/backend_diagnostics.cmake",
+      "sha256": "553559489352f5ac8a0ef2629fb87da9208a209b2c8434352fb79d28bc3d9029"
+    },
+    {
+      "source_path": "language/tests/cmake/native_package/CMakeLists.txt",
+      "destination_path": "language/tests/cmake/native_package/CMakeLists.txt",
+      "sha256": "db3bce76018b6fbeb45508e498daf3687094a2c0178a5cfae53dc8b402b1680a"
+    },
+    {
+      "source_path": "language/tests/cmake/native_package/imported.cpp",
+      "destination_path": "language/tests/cmake/native_package/imported.cpp",
+      "sha256": "91e2b090501507f708bf78661b11393616a2037b88b9d1d943e36a038fbcff3c"
+    },
+    {
+      "source_path": "language/tests/cmake/native_package/main.cpp",
+      "destination_path": "language/tests/cmake/native_package/main.cpp",
+      "sha256": "45af5da2508759cbf4ee32470cbc4ecbd3f316cedb2a0b5a1086a107249340ba"
+    },
+    {
+      "source_path": "language/tests/cmake/native_package/parts.cpp",
+      "destination_path": "language/tests/cmake/native_package/parts.cpp",
+      "sha256": "2152678254d29c35ff681b49f6da483a6c5681f5574890cb865b9fb1c05c6dbc"
+    },
+    {
+      "source_path": "language/tests/cmake/native_package/relocation.cpp",
+      "destination_path": "language/tests/cmake/native_package/relocation.cpp",
+      "sha256": "cb9b1ae9071de9b467495965a65819d8cda17bff27986e46e3e55a6d7b20321c"
+    },
+    {
+      "source_path": "language/tests/cmake/native_package_test.cmake",
+      "destination_path": "language/tests/cmake/native_package_test.cmake",
+      "sha256": "c8c432047bbd149d6a8132e7523d2cbc2cd37bd1b27d6732bb9f8add4dbfd5da"
+    },
+    {
+      "source_path": "language/tests/cmake/package/CMakeLists.txt",
+      "destination_path": "language/tests/cmake/package/CMakeLists.txt",
+      "sha256": "7aab419e0862df73b9c5a163c947ba9193efafe3bcc444c7ca05a7889785ef98"
+    },
+    {
+      "source_path": "language/tests/cmake/package/part-implementation.hgl",
+      "destination_path": "language/tests/cmake/package/part-implementation.hgl",
+      "sha256": "66766de92f02585aab390bea09f480557671b71f91653b39a0245cbeb5b6ea06"
+    },
+    {
+      "source_path": "language/tests/cmake/package/parts.hgl",
+      "destination_path": "language/tests/cmake/package/parts.hgl",
+      "sha256": "373cde6c8675e61e7b56dff4989c3046fcb785d8d3b8c693673277dc40f7c790"
+    },
+    {
+      "source_path": "language/tests/cmake/package/unit.hgl",
+      "destination_path": "language/tests/cmake/package/unit.hgl",
+      "sha256": "44d844e2a090e5a07e688cdc62e662c2cf8323e5e53d8f3ae3669ab798df50be"
+    },
+    {
+      "source_path": "language/tests/cmake/package_test.cmake",
+      "destination_path": "language/tests/cmake/package_test.cmake",
+      "sha256": "5b202a95d26d753d05d790e95051befabd410e223e5d46e9be5562768e58c719"
+    },
+    {
+      "source_path": "language/tests/cmake/split_cleanup.cmake",
+      "destination_path": "language/tests/cmake/split_cleanup.cmake",
+      "sha256": "f3896f93b910c2f2e50de817a066205de2eff046bd399f6fbd8f6ece66b2cf1c"
+    },
+    {
+      "source_path": "language/tests/cmake/windows_runtime_dlls.cmake",
+      "destination_path": "language/tests/cmake/windows_runtime_dlls.cmake",
+      "sha256": "a88b2679bc52749e8d9c000e33e019088c1c1afaa14a6fc696dbb43f920e98b1"
+    },
+    {
+      "source_path": "language/tests/codegen/any-values.hgl",
+      "destination_path": "language/tests/codegen/any-values.hgl",
+      "sha256": "33f8b4cd79d648e71de6462c71cba344b71cef1c7ca55f5ea948ecd4db4d7139"
+    },
+    {
+      "source_path": "language/tests/codegen/bytes-values.hgl",
+      "destination_path": "language/tests/codegen/bytes-values.hgl",
+      "sha256": "e9f7c0120f7eab6926bcd8250db1cd6979053c32ccb541c9a27e49d2a574a08f"
+    },
+    {
+      "source_path": "language/tests/codegen/capture-call-selection.hgl",
+      "destination_path": "language/tests/codegen/capture-call-selection.hgl",
+      "sha256": "bb19a7b43ed5367d2660d0cc3fbf3032305c333f2ac0e8078c2ebca14762a1cf"
+    },
+    {
+      "source_path": "language/tests/codegen/const-debug/provider.h",
+      "destination_path": "language/tests/codegen/const-debug/provider.h",
+      "sha256": "ee262d4617fe5942359be1ffce6870c55a8abaf9956d365fae08c59a155d6b35"
+    },
+    {
+      "source_path": "language/tests/codegen/contextual-bindings.hgl",
+      "destination_path": "language/tests/codegen/contextual-bindings.hgl",
+      "sha256": "2d078a18e4c4f17b7c1ac07eb078e13d09cf6c26292cb823f427880dae6849a4"
+    },
+    {
+      "source_path": "language/tests/codegen/emitter_tests.cpp",
+      "destination_path": "language/tests/codegen/emitter_tests.cpp",
+      "sha256": "6a1963f0673abbd74513d3f0a325b580ba95df40d0e23e1542ac2af14ea7b049"
+    },
+    {
+      "source_path": "language/tests/codegen/enum-collections.hgl",
+      "destination_path": "language/tests/codegen/enum-collections.hgl",
+      "sha256": "56961e70b2d20d43bcec80ef89685ec84550462dfb456c6f1a5fa9add0da5a74"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_any_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_any_tests.cpp",
+      "sha256": "d84b6dd7d19a7728dbc4ab7b770ea3a2c58616f22ad2d8823db20a304793affb"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_bytes_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_bytes_tests.cpp",
+      "sha256": "e771a71e8ccb3463b8d5b68eb699e3d7a7d6bfe4a9f548152f68e05be9ef5c2e"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_capture_call_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_capture_call_tests.cpp",
+      "sha256": "b897a3efbb9577c0ec3b7d87e277582d9040201a2055909e5b60c3e4624b186d"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_catalogue_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_catalogue_tests.cpp",
+      "sha256": "d099b9fda28c6fcaee745dbefb2cd6718533a261e0d6d4d33ecc6f0e2a5e5779"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_const_debug_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_const_debug_tests.cpp",
+      "sha256": "f07e9d7dfe5e194b95942c7d53e64e903e1836c599a311a160184d8f6614fc50"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_contextual_binding_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_contextual_binding_tests.cpp",
+      "sha256": "7a95f404c80c8ac05067d8aab4d56c165c030300f4b8b3c993e6e5a1d34162f6"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_core_native_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_core_native_tests.cpp",
+      "sha256": "e9aec07e3809fe1609602b63c39a3c70fc3b7df371fbe645e4d419bff1e8ea11"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_example_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_example_tests.cpp",
+      "sha256": "5def587e92db7348a61254293602862afcc151e85137adaf9c856d0b86d338b0"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_generic_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_generic_tests.cpp",
+      "sha256": "c6c8c764ebce41c7de6a2cd8a3f53da62f43683c4eb20fe6bdd37e1799e0fdf3"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_imported_operator_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_imported_operator_tests.cpp",
+      "sha256": "1d045b7233827b38a540db26ba2fb8511a0a6ae2b92ce6d8944320eda7144aa1"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_imported_struct_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_imported_struct_tests.cpp",
+      "sha256": "f5230515c820ae00c8c962f7a598b1986eb95325fec25f75ce69dbe575b1b3cc"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_inline_native_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_inline_native_tests.cpp",
+      "sha256": "aa37a49365eb00003316f9bfd6ee714df60d856fd52e2d53ea8c64bad3788811"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_iteration_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_iteration_tests.cpp",
+      "sha256": "1cf1856afcddb416de1439798fa67c4cde1b83af7ad5ea943f3a22d3a4170c63"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_lifecycle_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_lifecycle_tests.cpp",
+      "sha256": "12747dabb2901283a43a56d20605a93dd845367332765f5d60b133a35c593c59"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_module_parts_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_module_parts_tests.cpp",
+      "sha256": "6e52a0ef09fbc24f96fb80849bfc4cc2ae78379fc1c19f9e9a65b2d70f2ecc2e"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_native_atomic_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_native_atomic_tests.cpp",
+      "sha256": "05f6e62fee5076e642ed98c4145d60f837a8ccd77b51242eb71f7896a91f4fce"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_native_provider_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_native_provider_tests.cpp",
+      "sha256": "8c58072874a319f071bf994bcfd6327d1c54bda52576cc4fb85d1ac7baabd18f"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_native_result_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_native_result_tests.cpp",
+      "sha256": "277d5fe9e5604a5eb2d9c24e7790186bc2a98e8f056b2b357acef6ddd2bd4aba"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_native_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_native_tests.cpp",
+      "sha256": "1c24229b317d6f4513e908f9b62ce3b546e6b774a3b558da3e58cd8f260a1357"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_operator_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_operator_tests.cpp",
+      "sha256": "bb34d18eaa142e60cd60c8c5a2fc7529cd400aa0722b8299575475f196e100b6"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_partial_materialization_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_partial_materialization_tests.cpp",
+      "sha256": "479ee4d0acd345315b0d5b0554de11b8b8bc58453def8fc20c5c69ba172e9e69"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_recursive_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_recursive_tests.cpp",
+      "sha256": "128009152ab6c723267583634325df22548ef3900b7fb671edfb2a229cfee91d"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_reference_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_reference_tests.cpp",
+      "sha256": "fc1ebcdc9e1ee254295a2b08951412c53844100c727537592b60eba796a5f87c"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_runtime_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_runtime_tests.cpp",
+      "sha256": "f96ab62e7fc1405712164fe0cc32af16223e65b23fd6b34883cc38a8ab2a53ee"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_standard_library_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_standard_library_tests.cpp",
+      "sha256": "fa46484b2ebe1e0f6a3cfe00bdfa4fa18b8490688197d53471f5600039732e90"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_structural_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_structural_tests.cpp",
+      "sha256": "b2c3775fab93907514142dbbda84739419711fc2af1e9445911262867122adf0"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_tests.cpp",
+      "sha256": "395dd38fb6a8834cb530feaa8ad8d3bbdbb599a3c78597c026315995e8876e65"
+    },
+    {
+      "source_path": "language/tests/codegen/generated_value_function_tests.cpp",
+      "destination_path": "language/tests/codegen/generated_value_function_tests.cpp",
+      "sha256": "fac3fa4bff4f4330b24b5234a71dc8839cca2ddb843365b9b10b47b0ee5b2e20"
+    },
+    {
+      "source_path": "language/tests/codegen/generic-collections.hgl",
+      "destination_path": "language/tests/codegen/generic-collections.hgl",
+      "sha256": "b4cb9a283cf15012ef8d0d685764523f9c04585e47096fee57b1dfd9a085879d"
+    },
+    {
+      "source_path": "language/tests/codegen/held-reference-delta.hgl",
+      "destination_path": "language/tests/codegen/held-reference-delta.hgl",
+      "sha256": "e436682e219ab598b2e705adfcbc2e15dad12db480ead46b1bdd75fc06182d3b"
+    },
+    {
+      "source_path": "language/tests/codegen/held-source-retention.hgl",
+      "destination_path": "language/tests/codegen/held-source-retention.hgl",
+      "sha256": "5d7134f268cf5f7f291a3dbb0bcfa78b719893b8720257218f36f16c66e9beba"
+    },
+    {
+      "source_path": "language/tests/codegen/held_delta_owner_tests.cpp",
+      "destination_path": "language/tests/codegen/held_delta_owner_tests.cpp",
+      "sha256": "09bff3bf6163fa8fe5d3fe96df29e1ef9fad0d23816d141535ed17064c29f229"
+    },
+    {
+      "source_path": "language/tests/codegen/held_reference_delta_driver.cpp",
+      "destination_path": "language/tests/codegen/held_reference_delta_driver.cpp",
+      "sha256": "cedcdb8f8aa98825eda2f10a6e53dda9b88d84eda69a07b3fb28b819c5cb9839"
+    },
+    {
+      "source_path": "language/tests/codegen/imported-operators/consumer.hgl",
+      "destination_path": "language/tests/codegen/imported-operators/consumer.hgl",
+      "sha256": "f4080c25a5396b108f26c6a6429128caddf72c462c2295bd0c1dd39230ef9bf3"
+    },
+    {
+      "source_path": "language/tests/codegen/imported-operators/contracts.hgl",
+      "destination_path": "language/tests/codegen/imported-operators/contracts.hgl",
+      "sha256": "f6e7ecf7a78268ecf1747c2edae7e947923794f2d645c56e4f6735141e2b89a4"
+    },
+    {
+      "source_path": "language/tests/codegen/imported-operators/provider.hgl",
+      "destination_path": "language/tests/codegen/imported-operators/provider.hgl",
+      "sha256": "905c15f2cebf9ce9202cd5e16a48030e35ba9b33285f52c4926acc92ade1649c"
+    },
+    {
+      "source_path": "language/tests/codegen/imported-structs/instruments.hgl",
+      "destination_path": "language/tests/codegen/imported-structs/instruments.hgl",
+      "sha256": "7fb4784b27d56641432f453cbec9f3af0df46076c6fd591d616998352361864d"
+    },
+    {
+      "source_path": "language/tests/codegen/imported-structs/shapes.hgl",
+      "destination_path": "language/tests/codegen/imported-structs/shapes.hgl",
+      "sha256": "a1c7508d85dc229a75e3a369cf5d3192387cb2c22d5253b6a336cbcbbaf1c0ca"
+    },
+    {
+      "source_path": "language/tests/codegen/inline-native-consumer.hgl",
+      "destination_path": "language/tests/codegen/inline-native-consumer.hgl",
+      "sha256": "8a1da41a076a63c00ce0e225a660942b26d78bd9725e7d1601e2547cce9fc23f"
+    },
+    {
+      "source_path": "language/tests/codegen/list-output-writes.hgl",
+      "destination_path": "language/tests/codegen/list-output-writes.hgl",
+      "sha256": "8b690bbbbb12b7166f7735cb2d8fa327664abd157767a647ace67140edfea9a6"
+    },
+    {
+      "source_path": "language/tests/codegen/native-atomic-values.hgl",
+      "destination_path": "language/tests/codegen/native-atomic-values.hgl",
+      "sha256": "9b9a5c09f84385d3996092438f46df34bbc63f77448b097a87bda6f127fa25db"
+    },
+    {
+      "source_path": "language/tests/codegen/native-functions.hgl",
+      "destination_path": "language/tests/codegen/native-functions.hgl",
+      "sha256": "312d5d0c846a772842854b867c1bfa3d72eeca8b3c9efb0c5c43e03cda216782"
+    },
+    {
+      "source_path": "language/tests/codegen/native-provider-consumer.hgl",
+      "destination_path": "language/tests/codegen/native-provider-consumer.hgl",
+      "sha256": "6cf6fd02197bd63b0235c4a5442c2927936e8ef20cde0c9e0146d25255db1515"
+    },
+    {
+      "source_path": "language/tests/codegen/native-provider-duplicate-impl.hgl",
+      "destination_path": "language/tests/codegen/native-provider-duplicate-impl.hgl",
+      "sha256": "bbf840d16034581332da59bb4ac9ebcd815f09886790b3193af63d263802ee32"
+    },
+    {
+      "source_path": "language/tests/codegen/native-provider-impl.hgl",
+      "destination_path": "language/tests/codegen/native-provider-impl.hgl",
+      "sha256": "4a503d04b13ed7910a9b47e4a88d750d2b159fbb0c8f79dbe88614f88ab88545"
+    },
+    {
+      "source_path": "language/tests/codegen/native-provider/provider.h",
+      "destination_path": "language/tests/codegen/native-provider/provider.h",
+      "sha256": "a9e6b25355527dc9462358bfc3d03baafe79915d8c1642c8caf5d195bb20051c"
+    },
+    {
+      "source_path": "language/tests/codegen/native-result-impl.hgl",
+      "destination_path": "language/tests/codegen/native-result-impl.hgl",
+      "sha256": "a289199c7255c2fb8923eb26f1807a7b3a21877e54c6eadfbfa7598d5bf132af"
+    },
+    {
+      "source_path": "language/tests/codegen/native-result.hgl",
+      "destination_path": "language/tests/codegen/native-result.hgl",
+      "sha256": "abe0e6b6c333192369c38dfb9b4363a0eacf10c8cfae3184f754da90a312a9d9"
+    },
+    {
+      "source_path": "language/tests/codegen/native-result/provider.h",
+      "destination_path": "language/tests/codegen/native-result/provider.h",
+      "sha256": "f1c001a0160afedece769819caed7bde5db1855f75595c64265c0b03dafe6455"
+    },
+    {
+      "source_path": "language/tests/codegen/nested-reference-fields.hgl",
+      "destination_path": "language/tests/codegen/nested-reference-fields.hgl",
+      "sha256": "cb7db7829006f5e6a6e9a5b0c8ddd8dddbdfecd0200288565899b89f29d06da5"
+    },
+    {
+      "source_path": "language/tests/codegen/output-reads.hgl",
+      "destination_path": "language/tests/codegen/output-reads.hgl",
+      "sha256": "0030430df0d4f025cc3acb9a1adcefe5174955a6e50571f857dc837c9b13c90d"
+    },
+    {
+      "source_path": "language/tests/codegen/parameter-packs.hgl",
+      "destination_path": "language/tests/codegen/parameter-packs.hgl",
+      "sha256": "7e78da2c9609a5036b7009c5de6c2b095749a466e10f6586b790cacdc72f4f5e"
+    },
+    {
+      "source_path": "language/tests/codegen/parity.hgl",
+      "destination_path": "language/tests/codegen/parity.hgl",
+      "sha256": "d0a69d8345a8df30ce53bd47556c55b6156dd5a66580182700585aa5dd4830ba"
+    },
+    {
+      "source_path": "language/tests/codegen/part-api.hgl",
+      "destination_path": "language/tests/codegen/part-api.hgl",
+      "sha256": "b5ef1a68aca241fe313ece99f0fb1c0dd172f5911664a7d1b1b9112c81216675"
+    },
+    {
+      "source_path": "language/tests/codegen/part-implementation.hgl",
+      "destination_path": "language/tests/codegen/part-implementation.hgl",
+      "sha256": "095248686f79d2a57cdf4857d798b07b96cd5c1052a33a9a2d857dffda491075"
+    },
+    {
+      "source_path": "language/tests/codegen/partial-materialization.hgl",
+      "destination_path": "language/tests/codegen/partial-materialization.hgl",
+      "sha256": "22420b40e2d756d64eb8bbd551fff76d3181160a12ccf6f731b1ecb80afaac4e"
+    },
+    {
+      "source_path": "language/tests/codegen/reference-identity-public.hgl",
+      "destination_path": "language/tests/codegen/reference-identity-public.hgl",
+      "sha256": "833e49ad796d8e20bbe97853ab90c342bb4bb4c22d57270ad698fdef26bb992f"
+    },
+    {
+      "source_path": "language/tests/codegen/reference-projection-public.hgl",
+      "destination_path": "language/tests/codegen/reference-projection-public.hgl",
+      "sha256": "f2408e661f4424dabcf699bfec2b55d6fb3754e1eff24de89b80865d03f3daf3"
+    },
+    {
+      "source_path": "language/tests/codegen/retained-generics.hgl",
+      "destination_path": "language/tests/codegen/retained-generics.hgl",
+      "sha256": "c2067a04d9c093dbad342339319b4509cb6d84269bca105622d987f845d4750b"
+    },
+    {
+      "source_path": "language/tests/codegen/runtime-packs.hgl",
+      "destination_path": "language/tests/codegen/runtime-packs.hgl",
+      "sha256": "e553283986d5bf9875642d50e9c9cc09806673a380b0b50f5d0a60e2ccf4b331"
+    },
+    {
+      "source_path": "language/tests/codegen/runtime.hgl",
+      "destination_path": "language/tests/codegen/runtime.hgl",
+      "sha256": "d5e78959f6cc8619756a94c156c0dd73d8b5b59c35b584a74ed96245b1fd7d32"
+    },
+    {
+      "source_path": "language/tests/codegen/sources.hgl",
+      "destination_path": "language/tests/codegen/sources.hgl",
+      "sha256": "86b4f9d5d5254c7d1870e974b5b0d3601a17bdee21a504b64262031babf16c14"
+    },
+    {
+      "source_path": "language/tests/codegen/stdlib_differential_tests.cpp",
+      "destination_path": "language/tests/codegen/stdlib_differential_tests.cpp",
+      "sha256": "3462a4a085220051245c479358b73b659161b42e91e8df6ca3521ddbcf31cd10"
+    },
+    {
+      "source_path": "language/tests/codegen/str-values.hgl",
+      "destination_path": "language/tests/codegen/str-values.hgl",
+      "sha256": "5ead51e93e482ca32549edc8a359c870a8c4ed8034e0363a9e8569aad32e777c"
+    },
+    {
+      "source_path": "language/tests/codegen/system-operators.hgl",
+      "destination_path": "language/tests/codegen/system-operators.hgl",
+      "sha256": "a737a5eb441ea0c3665a2dc1fff0e6100af47fcc9fd4a9e6ccacce8082cb30dc"
+    },
+    {
+      "source_path": "language/tests/codegen/temporal-arithmetic.hgl",
+      "destination_path": "language/tests/codegen/temporal-arithmetic.hgl",
+      "sha256": "17871d731e50b8668779b6002c1bcd12369012d936e7e4dabfa6bb637c4988ce"
+    },
+    {
+      "source_path": "language/tests/codegen/value-functions.hgl",
+      "destination_path": "language/tests/codegen/value-functions.hgl",
+      "sha256": "686bd081e3826f5874f7d75a94337bd2f7293d6be4e29d2e5a9226f73439158c"
+    },
+    {
+      "source_path": "language/tests/descriptor/module_descriptor_reader_tests.cpp",
+      "destination_path": "language/tests/descriptor/module_descriptor_reader_tests.cpp",
+      "sha256": "4602462438587837b5bce43c35ff6b1616ab510de6097f1a8ba7ff272d3f3e45"
+    },
+    {
+      "source_path": "language/tests/descriptor/module_descriptor_tests.cpp",
+      "destination_path": "language/tests/descriptor/module_descriptor_tests.cpp",
+      "sha256": "2c80b37cce972bddaa0a35395062523d2eb0fa902364ecbe92f46e5368c5f45c"
+    },
+    {
+      "source_path": "language/tests/driver/check_descriptor.cmake",
+      "destination_path": "language/tests/driver/check_descriptor.cmake",
+      "sha256": "b0b87e6cacf011f40421687770b3117e491b1c0adbfe585d369aafb657808058"
+    },
+    {
+      "source_path": "language/tests/driver/check_recursive_descriptor.cmake",
+      "destination_path": "language/tests/driver/check_recursive_descriptor.cmake",
+      "sha256": "fcc39b68b59afcddf7af053e5dffab0e7b753caecc40736b2aebe1333eb366a3"
+    },
+    {
+      "source_path": "language/tests/driver/contextual_bindings.cmake",
+      "destination_path": "language/tests/driver/contextual_bindings.cmake",
+      "sha256": "94c317c274e934bf3952994e8e87168e093b2a6c0f069b46defb2a5f68d9bb92"
+    },
+    {
+      "source_path": "language/tests/driver/format.cmake",
+      "destination_path": "language/tests/driver/format.cmake",
+      "sha256": "e535f3b9b7117c276f97596b8d2450a46350e50f150d89161fc7782a665e1e52"
+    },
+    {
+      "source_path": "language/tests/driver/include/checks/native_atomic_values.h",
+      "destination_path": "language/tests/driver/include/checks/native_atomic_values.h",
+      "sha256": "3f0328705a3755c4aaeae72767da134f1f561f2de0506449cc580128f3a18129"
+    },
+    {
+      "source_path": "language/tests/driver/include/checks/native_dependency.h",
+      "destination_path": "language/tests/driver/include/checks/native_dependency.h",
+      "sha256": "fb8a19bdd3765100737028d8f7b7eabd53bed3e510e6f02911481e032f9f89ed"
+    },
+    {
+      "source_path": "language/tests/driver/module-parts/duplicate-declaration.hgl",
+      "destination_path": "language/tests/driver/module-parts/duplicate-declaration.hgl",
+      "sha256": "948b91f4288c8df81310c07f5b886daef5e88cec98bde548e753cc16a99d3df9"
+    },
+    {
+      "source_path": "language/tests/driver/module-parts/duplicate-part.hgl",
+      "destination_path": "language/tests/driver/module-parts/duplicate-part.hgl",
+      "sha256": "55ae56d50b43d00dca4f214b25805c04966fda9478c5d3f0fd5e9d8692b2d569"
+    },
+    {
+      "source_path": "language/tests/driver/module-parts/mismatched-module.hgl",
+      "destination_path": "language/tests/driver/module-parts/mismatched-module.hgl",
+      "sha256": "e2648d10cdaed6a0f09e11f3b34ffd1b3ff66ae1104c3aef2cc99e5c9c73aad3"
+    },
+    {
+      "source_path": "language/tests/driver/module-parts/missing-part.hgl",
+      "destination_path": "language/tests/driver/module-parts/missing-part.hgl",
+      "sha256": "5a6a4e28802bf8ccdfb4f177b5cfbd69f6d9c9e9ff657736c4141474e9be2098"
+    },
+    {
+      "source_path": "language/tests/driver/module-parts/zeta.hgl",
+      "destination_path": "language/tests/driver/module-parts/zeta.hgl",
+      "sha256": "109d5421d552a1c6b65ee15d502797c03264705dec4b125dbcc5948a7ef0b687"
+    },
+    {
+      "source_path": "language/tests/driver/module_parts.cmake",
+      "destination_path": "language/tests/driver/module_parts.cmake",
+      "sha256": "e544c11b6aa51f36d6b74ebbc2590cdd1dc5c5cb46231701727465f8bbaacf40"
+    },
+    {
+      "source_path": "language/tests/driver/native-scalar-import.hgl",
+      "destination_path": "language/tests/driver/native-scalar-import.hgl",
+      "sha256": "0e1af6b1d849eb16bc41c8fe833675ae47b0a23c073d77c1f60719cd02f96608"
+    },
+    {
+      "source_path": "language/tests/driver/native_atomic_descriptor_fixture.cpp",
+      "destination_path": "language/tests/driver/native_atomic_descriptor_fixture.cpp",
+      "sha256": "4fe7696c3d6524ef9e0537bfdd5bbf564c2f2d50006a96eac217cacf469e3cee"
+    },
+    {
+      "source_path": "language/tests/driver/native_atomic_test_driver.cpp",
+      "destination_path": "language/tests/driver/native_atomic_test_driver.cpp",
+      "sha256": "f2733cc08f80c0546e1d5b5e1d7fecfb77d2b1c9bb4f5fb6b2c3eff4676e84ea"
+    },
+    {
+      "source_path": "language/tests/driver/native_cache.cmake",
+      "destination_path": "language/tests/driver/native_cache.cmake",
+      "sha256": "cdcac1cc192a3a855a83b98e1b05bd8dfacbdb475348e19f5d0a96302c44e8a0"
+    },
+    {
+      "source_path": "language/tests/driver/native_failure.cmake",
+      "destination_path": "language/tests/driver/native_failure.cmake",
+      "sha256": "eba5ee78a31a44e5e8be001f454c7a4022e25d3157ad9f8423ec4a7e0a26d27b"
+    },
+    {
+      "source_path": "language/tests/driver/native_module_abi.c",
+      "destination_path": "language/tests/driver/native_module_abi.c",
+      "sha256": "bbf96d1de4224544ae688baf52bb226fd2d036f8f909f788af611edf7f02beec"
+    },
+    {
+      "source_path": "language/tests/driver/native_module_tests.cpp",
+      "destination_path": "language/tests/driver/native_module_tests.cpp",
+      "sha256": "c1c29767cc906b831a27ecd025e374f3a3ba77b154c0ce25a5329a242e2085b7"
+    },
+    {
+      "source_path": "language/tests/driver/native_scalar_descriptor_fixture.cpp",
+      "destination_path": "language/tests/driver/native_scalar_descriptor_fixture.cpp",
+      "sha256": "9ce7ed976ef0dcd020cb93c53e459885d09791366515e0146c2cc304f981974b"
+    },
+    {
+      "source_path": "language/tests/driver/recursive-export.hgl",
+      "destination_path": "language/tests/driver/recursive-export.hgl",
+      "sha256": "e7d6ed2eb51208466839ea897731c779b7fddfc237ce87227cdc995c2a0a3df2"
+    },
+    {
+      "source_path": "language/tests/driver/reference_test_driver.cpp",
+      "destination_path": "language/tests/driver/reference_test_driver.cpp",
+      "sha256": "970dd265899e49f1126ddc0e1c7b73d044913d56b5ddc0ccab17287665066770"
+    },
+    {
+      "source_path": "language/tests/driver/test-contexts/api.hgl",
+      "destination_path": "language/tests/driver/test-contexts/api.hgl",
+      "sha256": "3df13a777cd9aabc3428ec7a0114864ce9f338da5c14f8e2490e0dbe996e10ea"
+    },
+    {
+      "source_path": "language/tests/driver/test-contexts/cases.hgl",
+      "destination_path": "language/tests/driver/test-contexts/cases.hgl",
+      "sha256": "70528f246c9b0e08eab690cad44eead8ae35e05ff025adaa4a3f9ab02720137f"
+    },
+    {
+      "source_path": "language/tests/driver/test-contexts/helpers.hgl",
+      "destination_path": "language/tests/driver/test-contexts/helpers.hgl",
+      "sha256": "53b09c582ee3cc95b8deaf206658126784f611b02f8a9f63efa0eb3d1f26a5af"
+    },
+    {
+      "source_path": "language/tests/driver/test-contexts/native-only.hgl",
+      "destination_path": "language/tests/driver/test-contexts/native-only.hgl",
+      "sha256": "fb638f175bce102f099a6e61d20834efe1dc333c38cc718aacd95e9bd221464d"
+    },
+    {
+      "source_path": "language/tests/driver/test-contexts/outside.hgl",
+      "destination_path": "language/tests/driver/test-contexts/outside.hgl",
+      "sha256": "b848bb9983fef5f28c475ab3c3b36b338935305161ed9fa37f63388d4a12b81f"
+    },
+    {
+      "source_path": "language/tests/driver/test-contexts/production-leak-type.hgl",
+      "destination_path": "language/tests/driver/test-contexts/production-leak-type.hgl",
+      "sha256": "a048ede77b52bcdb77d0c7e5abe846ecae8742840e40abe91290fbf7115d7dad"
+    },
+    {
+      "source_path": "language/tests/driver/test-contexts/production-leak.hgl",
+      "destination_path": "language/tests/driver/test-contexts/production-leak.hgl",
+      "sha256": "755e0e444fac38ae09a6b253f940c2f1b1ea10c134cfa49db466ed77bfccadcd"
+    },
+    {
+      "source_path": "language/tests/driver/test-contexts/session.txt",
+      "destination_path": "language/tests/driver/test-contexts/session.txt",
+      "sha256": "00071f0d12fa1078d1ba949f0288d849dbd998b8cd3907fac07a23f1d3fdd897"
+    },
+    {
+      "source_path": "language/tests/driver/test_contexts.cmake",
+      "destination_path": "language/tests/driver/test_contexts.cmake",
+      "sha256": "5a5a6957ca2fa76d4831e4ac9ee772ae27cd4ee657064613d22aa3a7a0ab14c7"
+    },
+    {
+      "source_path": "language/tests/driver/tuple_written_order.cmake",
+      "destination_path": "language/tests/driver/tuple_written_order.cmake",
+      "sha256": "739937ddb23bfa9b85ea93501802ae610b950ede56567731f30cd696e0de74b7"
+    },
+    {
+      "source_path": "language/tests/hgraph_ir/complete_tests.cpp",
+      "destination_path": "language/tests/hgraph_ir/complete_tests.cpp",
+      "sha256": "67c470070515776683f9f9fea539ae110192dd97aca49aaafcef76f939f3e6b8"
+    },
+    {
+      "source_path": "language/tests/hgraph_ir/control_flow_tests.cpp",
+      "destination_path": "language/tests/hgraph_ir/control_flow_tests.cpp",
+      "sha256": "f6982f275a7ac5e74697ad6edb74d6197db35223860318085c5e7eba25909880"
+    },
+    {
+      "source_path": "language/tests/hgraph_ir/lower_tests.cpp",
+      "destination_path": "language/tests/hgraph_ir/lower_tests.cpp",
+      "sha256": "89f07becb37b53c0f6da7641c6792fe9b4734c40aa5a868b86a331d0d30fd70e"
+    },
+    {
+      "source_path": "language/tests/hgraph_ir/uses_tests.cpp",
+      "destination_path": "language/tests/hgraph_ir/uses_tests.cpp",
+      "sha256": "691c8daeeea16eded6cf08ba8d30c3178d16dfcd8fc8919640ad6602741fa3a7"
+    },
+    {
+      "source_path": "language/tests/ir/lower_tests.cpp",
+      "destination_path": "language/tests/ir/lower_tests.cpp",
+      "sha256": "9e0d2a0fd3b1160b4aa5005aa9aa333694619f10879be530fae07e92183ec2c3"
+    },
+    {
+      "source_path": "language/tests/ir/recursive-structs.hgl",
+      "destination_path": "language/tests/ir/recursive-structs.hgl",
+      "sha256": "6d9abc93d4213c5715ddf49f3c86bfe7dd242193f12bb6c09da870b44b06b858"
+    },
+    {
+      "source_path": "language/tests/native/native_package_tests.cpp",
+      "destination_path": "language/tests/native/native_package_tests.cpp",
+      "sha256": "15c11d0d62aefffffdd720d576b5aede1b766e4d91c4b4bb649b08b44d915685"
+    },
+    {
+      "source_path": "language/tests/negative/any_constant_generated_driver.cpp",
+      "destination_path": "language/tests/negative/any_constant_generated_driver.cpp",
+      "sha256": "caa947ce0c3f7609dbb4be31bb5584c1ba06d6cd6f72208bb6afb24b30be88fb"
+    },
+    {
+      "source_path": "language/tests/negative/capture-call-selection-reject.hgl",
+      "destination_path": "language/tests/negative/capture-call-selection-reject.hgl",
+      "sha256": "72df216b996c0e88c5e659a3c171ffaa28f176fae71130ba9fd7c230cb0840a2"
+    },
+    {
+      "source_path": "language/tests/negative/capture_call_generated_driver.cpp",
+      "destination_path": "language/tests/negative/capture_call_generated_driver.cpp",
+      "sha256": "1a438ec702edb21d56b7c4ad844f6329f980c0b417a0a9b2ee527c3ecf9a52f3"
+    },
+    {
+      "source_path": "language/tests/negative/capture_generated_driver.cpp",
+      "destination_path": "language/tests/negative/capture_generated_driver.cpp",
+      "sha256": "6dd72747b1141ad10b2cde7196f7fd2fb1e960823b647a3cbacc90bb11510711"
+    },
+    {
+      "source_path": "language/tests/negative/cleanup.hgl",
+      "destination_path": "language/tests/negative/cleanup.hgl",
+      "sha256": "8e1ec5d1fa4503ed06af67f29ce7a3e9acab6ec6326e50d272c93672e76b452d"
+    },
+    {
+      "source_path": "language/tests/negative/execution.cmake",
+      "destination_path": "language/tests/negative/execution.cmake",
+      "sha256": "998717b801131044a32535b58777e5adde00b6f2494bdc626155c5ad50533641"
+    },
+    {
+      "source_path": "language/tests/negative/execution.hgl",
+      "destination_path": "language/tests/negative/execution.hgl",
+      "sha256": "2dd2bde91176793c39234e71a83388a929608338a3192ec2617050f9678bac39"
+    },
+    {
+      "source_path": "language/tests/negative/generated_tests.cpp",
+      "destination_path": "language/tests/negative/generated_tests.cpp",
+      "sha256": "359f371532a05eb7c8e5daea20d541d5bd68f750e646bc39d44f8b98eb510a42"
+    },
+    {
+      "source_path": "language/tests/negative/lookup_generated_driver.cpp",
+      "destination_path": "language/tests/negative/lookup_generated_driver.cpp",
+      "sha256": "90f39d534cc4922c4b3c33f368d315cee52e7b230401ba88eb59e5ad917e61de"
+    },
+    {
+      "source_path": "language/tests/negative/map_key_connections_generated_driver.cpp",
+      "destination_path": "language/tests/negative/map_key_connections_generated_driver.cpp",
+      "sha256": "e93bb00653a1be5b804e034f291b8cdfed5997da9eb25ada474b47c92e461194"
+    },
+    {
+      "source_path": "language/tests/negative/mixed.cmake",
+      "destination_path": "language/tests/negative/mixed.cmake",
+      "sha256": "b30fd279dd1ecd87b8bd5a427345f29fa0447d68d2ad6925d3ba5d5d8ea71a02"
+    },
+    {
+      "source_path": "language/tests/negative/rejection.cmake",
+      "destination_path": "language/tests/negative/rejection.cmake",
+      "sha256": "deac2215373c165ed6d3444e2f863a4da148a98d41855c08a0a5e39e6cc3cd3c"
+    },
+    {
+      "source_path": "language/tests/negative/result_generated_driver.cpp",
+      "destination_path": "language/tests/negative/result_generated_driver.cpp",
+      "sha256": "97383303d912c12c32be19044621c8b9e1ce8f842e517d8d3366d0ece15b8290"
+    },
+    {
+      "source_path": "language/tests/negative/shared_fixture.cpp",
+      "destination_path": "language/tests/negative/shared_fixture.cpp",
+      "sha256": "55d6e40b53182223447d042884d461bbe3dbf6490dce0d229c3d19a6c3221061"
+    },
+    {
+      "source_path": "language/tests/negative/stdlib_generated_driver.cpp",
+      "destination_path": "language/tests/negative/stdlib_generated_driver.cpp",
+      "sha256": "752ce6305612ecc863fe209107c35c8cdd90ced2b0d4874c9ee80e7110d640ab"
+    },
+    {
+      "source_path": "language/tests/repl/repl_composition_smoke.cmake",
+      "destination_path": "language/tests/repl/repl_composition_smoke.cmake",
+      "sha256": "33dfe8ed46662c404bab9729609ccea85a0b99f4d4e3c638633b5d40efb3c287"
+    },
+    {
+      "source_path": "language/tests/repl/repl_smoke.cmake",
+      "destination_path": "language/tests/repl/repl_smoke.cmake",
+      "sha256": "e294ef182e2f13fe5278083be33690994723f7ba325a0857df9989205250186f"
+    },
+    {
+      "source_path": "language/tests/semantics/resolve_tests.cpp",
+      "destination_path": "language/tests/semantics/resolve_tests.cpp",
+      "sha256": "1f565b75a23809d657cef3b88632b7f4eaaae5e40bccda7c580a961cb72604b7"
+    },
+    {
+      "source_path": "language/tests/stdlib/check_invalid_fixture.cmake",
+      "destination_path": "language/tests/stdlib/check_invalid_fixture.cmake",
+      "sha256": "efd424a775b2c2b09312ba8d3d674e95c3b4c8c2cc210267c782fc8fe803d387"
+    },
+    {
+      "source_path": "language/tests/syntax/formatter_tests.cpp",
+      "destination_path": "language/tests/syntax/formatter_tests.cpp",
+      "sha256": "89766fb2141762745e100f28d1a748921c6d00e51466f5d4834ce12a12523561"
+    },
+    {
+      "source_path": "language/tests/syntax/lexer_tests.cpp",
+      "destination_path": "language/tests/syntax/lexer_tests.cpp",
+      "sha256": "1fa662e647e2b4f82df622fb212a977ca364271c98f6c0bb4f6893a0457fb540"
+    },
+    {
+      "source_path": "language/tests/syntax/parser_tests.cpp",
+      "destination_path": "language/tests/syntax/parser_tests.cpp",
+      "sha256": "673a759951eb0b488a951a694ca5ad3cb15200065a21b513ba69d58fc709a20d"
+    },
+    {
+      "source_path": "language/tests/syntax/temporal_tests.cpp",
+      "destination_path": "language/tests/syntax/temporal_tests.cpp",
+      "sha256": "4b2f20d0706b94389cea1bab60268d35bff9bc4e30aa39073e58e190f7521bfc"
+    },
+    {
+      "source_path": "language/tests/syntax/token_grammar_tests.cpp",
+      "destination_path": "language/tests/syntax/token_grammar_tests.cpp",
+      "sha256": "fd6656de9601b9d92e54272806663b56996a093c8cd0677bdc7dfe3514857ea5"
+    },
+    {
+      "source_path": "language/tests/wiring/backend_coverage_tests.cpp",
+      "destination_path": "language/tests/wiring/backend_coverage_tests.cpp",
+      "sha256": "0242c33127353eb5601c210dabc536e0e378052df9272bb0ab9e63fe706ba6b6"
+    },
+    {
+      "source_path": "language/tests/wiring/backend_tests.cpp",
+      "destination_path": "language/tests/wiring/backend_tests.cpp",
+      "sha256": "8ebc728f8a6202f7a9dab9d8dab7d579922d198d78119c0588d50f4011b42c08"
+    },
+    {
+      "source_path": "language/tests/wiring/capture_tests.cpp",
+      "destination_path": "language/tests/wiring/capture_tests.cpp",
+      "sha256": "4252551e4fcc29b32712714718a0256a9312f153fa7b12a5a97c66570817e9ca"
+    },
+    {
+      "source_path": "language/tests/wiring/operator-extra-arguments.hgl",
+      "destination_path": "language/tests/wiring/operator-extra-arguments.hgl",
+      "sha256": "2f434e8e169563a5164787a12a8319d1a86f412c534d322c175b916e5c9c9ee2"
+    },
+    {
+      "source_path": "language/tests/wiring/operator_types_tests.cpp",
+      "destination_path": "language/tests/wiring/operator_types_tests.cpp",
+      "sha256": "5abd989e0cafa640c2766c5158e83f0cbd69b94b98bd2383175de0c92baaea14"
+    },
+    {
+      "source_path": "language/tests/wiring/ordinary_patterns_tests.cpp",
+      "destination_path": "language/tests/wiring/ordinary_patterns_tests.cpp",
+      "sha256": "3955fd1bc22a44a271b44b65e09ef07f89da6ee208a19c23af347c0cc2925ea0"
+    },
+    {
+      "source_path": "language/tests/wiring/ordinary_read_allocations.cpp",
+      "destination_path": "language/tests/wiring/ordinary_read_allocations.cpp",
+      "sha256": "4b78cadbb8e374b3f9e4f286c462add8a280742890aa7a767e3e37636a1c4acc"
+    },
+    {
+      "source_path": "language/tests/wiring/ordinary_values_tests.cpp",
+      "destination_path": "language/tests/wiring/ordinary_values_tests.cpp",
+      "sha256": "857827baae86304f014bb989a933ce0922368c036113e54713230b408bbaa535"
+    },
+    {
+      "source_path": "language/tests/wiring/recursive-publications.hgl",
+      "destination_path": "language/tests/wiring/recursive-publications.hgl",
+      "sha256": "6c56924f32fe8348800e26b362e15bfddd526ec81e1b7dd3743e160b749a410d"
+    },
+    {
+      "source_path": "language/tests/wiring/recursive-structs.hgl",
+      "destination_path": "language/tests/wiring/recursive-structs.hgl",
+      "sha256": "efaaa28df0ad4311535373f8d78197460619f26fdbadcc76cff28f2a259b0688"
+    },
+    {
+      "source_path": "language/tests/wiring/standard_library_fixture.cpp",
+      "destination_path": "language/tests/wiring/standard_library_fixture.cpp",
+      "sha256": "76045630b397e40a6de0dd905e3503b4493cf4b93dedfb3817adc2df8188dcc2"
+    },
+    {
+      "source_path": "language/tests/wiring/type_bridge_tests.cpp",
+      "destination_path": "language/tests/wiring/type_bridge_tests.cpp",
+      "sha256": "12021d2d17289e72ec40d720a2c06e36b1c33134d178a5b92bcb29c155554464"
+    },
+    {
+      "source_path": "packaging/README.md",
+      "destination_path": "packaging/README.md",
+      "sha256": "d81ecb6df9aecef6f4571f73a37ae98f31e6812d51b3b617519f486f2165bb14"
+    },
+    {
+      "source_path": "packaging/docker/Dockerfile",
+      "destination_path": "packaging/docker/Dockerfile",
+      "sha256": "190225e0752b1718602a7e05e716c8273ec70681d7cb5db0244f50cdd84838b1"
+    },
+    {
+      "source_path": "packaging/docker/Dockerfile.dockerignore",
+      "destination_path": "packaging/docker/Dockerfile.dockerignore",
+      "sha256": "d55722dd417966ebc12847da50aa2cd77e6447faf862aa4fb34e80d032726d08"
+    },
+    {
+      "source_path": "packaging/homebrew/.github/workflows/publish.yml",
+      "destination_path": "packaging/archive/homebrew/.github/workflows/publish.yml",
+      "sha256": "f8f39fcb066e87ace6edae3be0d5f915e68377850bfd4fa64ff74a28e0dd410e"
+    },
+    {
+      "source_path": "packaging/homebrew/.github/workflows/tests.yml",
+      "destination_path": "packaging/archive/homebrew/.github/workflows/tests.yml",
+      "sha256": "fff115b9d1ea6f4666aa04869fe3b6f182454e5f8194fc1b8a990614446790cb"
+    },
+    {
+      "source_path": "packaging/homebrew/Aliases/hgl",
+      "destination_path": "packaging/archive/homebrew/Aliases/hgl",
+      "sha256": "56b2df9a410525972d1749cc0d0f97c5b6d7e0c7d103c421ac60d12a63e48573",
+      "type": "symlink"
+    },
+    {
+      "source_path": "packaging/homebrew/Formula/hgraph.rb",
+      "destination_path": "packaging/archive/homebrew/Formula/hgraph.rb",
+      "sha256": "a98d3f6f6225c80f7e985317812b902979f3fdf1ac80d25cc77a22e46fdec3c2"
+    },
+    {
+      "source_path": "packaging/homebrew/README.md",
+      "destination_path": "packaging/archive/homebrew/README.md",
+      "sha256": "92d7df602f165a1d2e0ad561624d900f8997cce9533e18057928a58b8bd4f0b6"
+    },
+    {
+      "source_path": "packaging/smoke/consumer/CMakeLists.txt",
+      "destination_path": "packaging/smoke/consumer/CMakeLists.txt",
+      "sha256": "33d7218b7d59f149ead7eb91700452586c653ca228dc629cce072d3d70f146af"
+    },
+    {
+      "source_path": "packaging/smoke/consumer/main.cpp",
+      "destination_path": "packaging/smoke/consumer/main.cpp",
+      "sha256": "8a472621dd0da94bcb296e8835adb8f11ea5967fdbf5b0d1b96f062a87f59226"
+    },
+    {
+      "source_path": "packaging/smoke/smoke.hgl",
+      "destination_path": "packaging/smoke/smoke.hgl",
+      "sha256": "91a96f5df9577a91d549bd1509f5f44a6b05254d19f03b9ad8fab6aff8237b3e"
+    },
+    {
+      "source_path": "python/tests/test_hgl_catalogue.py",
+      "destination_path": "tests/test_hgl_catalogue.py",
+      "sha256": "3e4f10ebd0b21ada697a771688126a42b9afa4b896f5fb98c6bc1619f9caccd9"
+    },
+    {
+      "source_path": "test_package/hgl_consumer.cpp",
+      "destination_path": "test_package/hgl_consumer.cpp",
+      "sha256": "dbe26d0697b6d9f3ee3b3398f4cdd0240a90e493d4633ddcf1da32ea71f80fc5"
+    },
+    {
+      "source_path": "test_package/smoke.hgl",
+      "destination_path": "test_package/smoke.hgl",
+      "sha256": "91a96f5df9577a91d549bd1509f5f44a6b05254d19f03b9ad8fab6aff8237b3e"
+    },
+    {
+      "source_path": "tools/hgl_catalogue.py",
+      "destination_path": "tools/hgl_catalogue.py",
+      "sha256": "ba680f2e0c8f007899fc0bf67fa2b8135b46100974a5dd1b91caf49152aca1e4"
+    },
+    {
+      "source_path": "tools/hgl_compiler_parity.py",
+      "destination_path": "tools/hgl_compiler_parity.py",
+      "sha256": "1bffeaf2590961053126b7b77de9e464e6be264cceef51b74148d73084f6b616"
+    },
+    {
+      "source_path": "tools/test_hgl_compiler_parity.py",
+      "destination_path": "tools/test_hgl_compiler_parity.py",
+      "sha256": "91547609b7456372a47ecff1dfb933a0283b24f1eaf06bfc7427ab333fce0788"
+    },
+    {
+      "source_path": "docs/source/rfc/rfc_0032_native_distribution.rst",
+      "destination_path": "language/docs/design/native-distribution-before-extraction.rst",
+      "sha256": "3cd70805dd6a3947193d1b55634caaa6be3298647476f62e2fe7e6847ae94ef5"
+    }
+  ],
+  "description": "Source locations and byte hashes at extraction. Build and packaging integration is maintained in hgraph_lang."
+}
