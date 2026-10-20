@@ -1,0 +1,11 @@
+/build*/
+/cmake-build*/
+/.venv/
+/dist/
+/reports/
+/**/__pycache__/
+/.pytest_cache/
+/.shared-artifacts-state.json
+/test_package/build/
+/test_package/CMakeUserPresets.json
+/.runtime/
