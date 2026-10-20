@@ -142,15 +142,24 @@ jobs:
       - name: Install clang-format on hosted macOS
         if: runner.os == 'macOS' && runner.environment != 'self-hosted'
         run: brew install clang-format
-      - name: Expose Arrow runtime libraries
+      - name: Expose SDK runtime libraries
         shell: python
         run: |
           import os
+          import sys
           from pathlib import Path
           import pyarrow
 
+          arrow_dir = str(Path(pyarrow.__file__).resolve().parent)
           with open(os.environ["GITHUB_PATH"], "a", encoding="utf-8") as path_file:
-              path_file.write(str(Path(pyarrow.__file__).resolve().parent) + "\n")
+              path_file.write(arrow_dir + "\n")
+          if sys.platform == "linux":
+              # The installed shared SDK also needs to resolve indirect dependencies.
+              library_dirs = [arrow_dir, str(Path(os.environ["HGL_DEPENDENCY_PREFIX"]) / "lib")]
+              if os.environ.get("LD_LIBRARY_PATH"):
+                  library_dirs.append(os.environ["LD_LIBRARY_PATH"])
+              with open(os.environ["GITHUB_ENV"], "a", encoding="utf-8") as env_file:
+                  env_file.write("LD_LIBRARY_PATH=" + os.pathsep.join(library_dirs) + "\n")
       - name: Check out the pinned SDK source
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
